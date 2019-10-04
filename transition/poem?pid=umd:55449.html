@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:search="http://www.fedora.info/definitions/1/0/types/" xmlns:collection="http://www.itd.umd.edu/fedora/collection" xmlns:doInfo="http://www.itd.umd.edu/fedora/doInfo" xmlns:tei="http://www.tei-c.org/ns/1.0" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ostentatious -- The Versioning Machine 4.0</title>
+<link type="text/css" rel="stylesheet" href="../webfiles/public-common/css/digital/transition/vmachine.css">
+<!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="../includes/css/transition/vmachine_ie7.css">
+         <![endif]-->
+<script type="text/javascript" src="../webfiles/public-common/js/digital/transition.js"></script><script type="text/javascript">
+      var witnesses = new Array();
+      
+         witnesses["va1"] = "all;va1";
+      
+         witnesses["va2"] = "all;va2";
+      
+         witnesses["va3"] = "all;va3";
+      
+         witnesses["va4"] = "all;va4";
+      
+         witnesses["va5"] = "all;va5";
+      
+         witnesses["va6"] = "all;va6";
+      
+         witnesses["pub1929"] = "pub1929";
+      
+      var maxPanels = 7;
+   </script>
+</head>
+<body onload="init();">
+<div id="mainBanner">
+<div id="brandingLogo">
+<a href="https://www.lib.umd.edu/"><img src="../webfiles/public-common/images/digital/collections/trn/vm-images/libraries2.png" alt="University of Maryland Libraries" id="logo1"></a><a href="index.html"><img src="../webfiles/public-common/images/digital/collections/trn/vm-images/dc2.png" alt="Digital Collections" id="logo2"></a>
+</div>
+<div id="headline">
+<h1 onclick="toggleBiblio();">Ostentatious</h1>
+<span class="versionCount"> has 7 versions</span>
+</div>
+<!-- <img alt="" src="https://digital.lib.umd.edu/images/digital/collections/transition/vm-images/topedge.gif" id="topEdge"><div id="mainControls"> -->
+<input onclick="openPanel();" value="New Version" id="newPanel" type="button">
+         &bull;
+         <input onclick="toggleBiblio();" value="Bibliographic Info" id="bibToggle" type="button">
+         &bull;
+         <input onclick="toggleCrit();" value="Critical Introduction" id="critToggle" type="button">
+         &bull;
+         <span class="lineNumbersToggle"><label for="toggleLineNumbers">Line Numbers:</label><input onclick="toggleLineNumbers(this.checked);" id="toggleLineNumbers" type="checkbox">
+            &bull;
+         </span><select id="notesMenu" onchange="notesFormat(this.value);"><option value="popup" selected>Popup notes</option><option value="inline">Inline notes</option><option value="none">
+                     Hide notes
+                  </option></select>
+         &bull;
+         Index to <i><a href="https://digital.lib.umd.edu/transition">In Transition</a></i> | <a target="_blank" href="https://umd.edu/web-accessibility">Web Accessibility</a>
+</div>
+</div>
+<div id="mssArea">
+<div id="bibPanel" class="panel">
+<div class="panelBanner">
+<span onclick="toggleBiblio()" class="closePanel">X</span>
+            Bibliographic Information
+         </div>
+<div class="bibContent">
+<h2>Ostentatious</h2>
+<h3>
+                  by Baroness Elsa von Freytag-Loringhoven</h3>
+<h4>Original Source</h4>
+<p>Encoded documents and images are derived from manuscripts in the <a href="http://www.lib.umd.edu/litmss/holdings.html#evfl" class="link">Papers of Elsa von Freytag-Loringhoven</a> in Special Collections at the University of Maryland, College Park, Libraries. In addition, individual pages or leaves of manuscripts are identified by the corresponding reel and frame numbers of the microfilm edition of the Freytag-Lorinhoven Papers.</p>
+<h4>Witness List</h4>
+<ul>
+<li>First: Reel 5, Frame 203
+						</li>
+<li>Second: Reel 5, Frame 205
+						</li>
+<li>Third: Reel 5, Frame 206
+						</li>
+<li>Fourth: Reel 5, Frame 207
+						</li>
+<li>Fifth: Reel 5, Frame 208
+						</li>
+<li>Sixth: Reel 5, Frame 516
+						</li>
+<li>Seventh: this version appeared in transition 16-17 (June 1929): 24. There is no image for this version.
+					</li>
+</ul>
+<h4>Textual Notes</h4>
+<div class="note">Drafts of this poem occupy series 3, box 3, folder 17. The Sixth version appears on the verso of "<a href="https://digital.lib.umd.edu/transition/transition/poem?pid=umd:55453" class="link"><span class="hi">Sermon on Life's Beggar Truth</span></a>"The poem was
+					written between 1923 and 1927. The poem was published posthumously in <span class="hi rend-italic">transition </span> 16-17 (June 1929): 24.</div>
+<h4>Electronic Edition Information:</h4>
+<h5>Responsibility Statement:</h5>
+<ul>
+<li>Text Encoding by Tanya Clement</li>
+<li>Proofing and Additional Encoding by Tanya Clement</li>
+<li>TIFF images scanned at 600 dpi from manuscript pages and JPEGS derived byTanya Clement</li>
+</ul>
+<h5>Publication Details:</h5>
+<p>Published by Tanya Clement.</p>Office of Digital Collections and Research (DCR), University of Maryland, College Park, MD 20742<p>Baroness Elsa von Freytag-Loringhoven's poetry is printed here with the support of the University of Maryland Libraries. Permission to reproduce images of
+						Freytag-Loringhoven's manuscripts has also been generously granted by the libraries.</p>
+<p>This poem and manuscript drafts are available from this site for
+						demonstration purposes only. Though the intellectual property of Elsa von Freytag-Loringhoven is in the public domain, all annotations and editorial commentary are copyrighted. They may not be reproduced without explicit
+						permission from the copyright holder. For copyright information, please
+						contact Tanya Clement.</p>
+<h4>Encoding Principles</h4>
+<p>DTD constructed from TEI P5 poetry base with tagsets for parallel segmentation, linking, figures, analysis, transcr, textcrit.</p>
+</div>
+</div>
+<div id="critPanel" class="panel">
+<div class="panelBanner">
+<span onclick="toggleCrit()" class="closePanel">X</span>
+            Critical Introduction
+         </div>
+<div class="critContent">
+<h4>Critical Introduction</h4>
+<p> "Ostentatious",  published posthumously in <span class="hi rend-italic">transition </span> in the June 1929 issue  was the last poem by the Baroness published in a little magazine in the modernist era. Eugene Jolas&rsquo;s piece &ldquo;Logos&rdquo; begins on the page after the Baroness&rsquo;s poem. He begins the piece: &ldquo;Poetry is at the cross-roads today,&rdquo; and he goes on to define this crossroads as one between a &ldquo;positivist&rdquo; and &ldquo;sterile&rdquo; poetry that gives a &ldquo;monotonous description&rdquo; of a &ldquo;mediocre universe&rdquo; and experimental poetry that seeks to revise &ldquo;traditional&rdquo; values and is &ldquo;in open revolt against naturalistic concepts&rdquo; (25). These are concepts already expressed in magazines such as <span class="hi rend-italic">The Little Review</span> and others, but like the editors of <span class="hi rend-italic">Dial</span> and <span class="hi rend-italic">Poetry</span>, Jolas inscribes a transcendental and otherworldly element to the poet by denigrating &ldquo;verbal freaks and literary acrobatics&rdquo; and postulating that the &ldquo;orphic poet&rdquo; has a vision that is &ldquo;direct and pure.&rdquo;  This orphic poet, he contends, has to do with the world, but his poetry does not: &ldquo;Poetry, using the word as mechanics, may [. . .] produce a metaphoric universe with is a sublimation of the physical world&rdquo; (26). The piece serves as a warning to the dead author of the posthumously published poem that precedes it: poetry should have little to do with your life. Clearly, it seems that the experimental nature of the poem was what attracted Jolas to it. Thus, in the context of the published poem, the ttitle "Ostentatious" has less to do with the Baroness's well-known street performances and more to do with the more oymoronic because more subtle ostentatious element of the sky and the word in play.</p>
+<p>
+							&ldquo;Ostentatious; Westward:; Eastward:; Agog.&rdquo; (transition June 1929, 24) relies on strictures of reading order and space to make meaning. In this compilation poem, the Baroness includes four separate poems. The first and topmost stanza, titled &ldquo;Ostentatious&rdquo; discusses &ldquo;Vivid fall&rsquo;s/Bugle sky;&rdquo; the second to the right is titled &ldquo;WESTWARD:&rdquo;, while the next, lower to the left is titled &ldquo;EASTWARD:&rdquo;; the last stanza, at the bottom of the space, is titled &ldquo;Agog&rdquo; and discusses &ldquo;Ultramarine/Avenues.&rdquo; While the placement of the sky at the top and the water at the bottom provokes little thought, the displacement of East and West&mdash;in terms of mapping standards&mdash;is more curious. That these stanzas actually include the adverbial form &ldquo;Eastward&rdquo; and &ldquo;Westward&rdquo; indicates a missing verb and therefore a missing subject. This occlusion emphasizes the perspective of that missing subject. The &ldquo;Eastward&rdquo; stanza in the traditionally &ldquo;West&rdquo; (because on the far left) position is about what one views from the West looking Eastward: a rising moon in the East. Likewise, the &ldquo;Westward&rdquo; stanza in the traditionally &ldquo;East&rdquo; position is about the setting sun. The day is bright as a bugle at the highest point of the sky (at the top of the page). The sun begins to set in the &ldquo;westward&rdquo; looking perspective where the tones of the poem deepen (the golden saxophone). As the day wanes or as the reader moves down the page in traditional reading order, however, the moon rises towards the East, and it seems that travesty prevails: from the centered perspective of the sea, the sun and the moon are both risen; resembling two eyes widened in shock, these eyes are &ldquo;Agog&rdquo; at the world. The tone and meaning of each word is dependent on the reader&rsquo;s movement through the graphical interface or the space on the page. Space is an essential element within the poem with which the Baroness was working. Indeed, in the first of the four manuscript versions of &ldquo;Ostentatious,&rdquo; the words of the text change little while their movement in the space on the page changes dramatically, emphasizing the fact that the Baroness anticipates the reader&rsquo;s ordered movement through space as a signifying element in the poem. 
+						</p>
+</div>
+</div>
+<div id="manuscripts">
+<div class="panel mssPanel">
+<div class="panelBanner">
+<span onclick="closePanel(this.parentNode.parentNode)" class="closePanel">X</span>Witness <select onchange="changeWitness(this.value,this.parentNode.parentNode);" class="witnessMenu"><option selected value="va1">1: First </option><option value="va2">2: Second </option><option value="va3">3: Third </option><option value="va4">4: Fourth </option><option value="va5">5: Fifth </option><option value="va6">6: Sixth </option><option value="pub1929">7: transition 1929 </option></select>
+</div>
+<div class="mssContent">
+<div class="mssImages">
+<img src="../webfiles/public-common/images/digital/55449/thumb_50713.jpg" style="max-height:60px;max-width:50px;" class="imageLink va1" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50713.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50715.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50715.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50717.jpg" style="max-height:60px;max-width:50px;" class="imageLink va3" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50717.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50719.jpg" style="max-height:60px;max-width:50px;" class="imageLink va4" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50719.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50721.jpg" style="max-height:60px;max-width:50px;" class="imageLink va5" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50721.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50723.jpg" style="max-height:60px;max-width:50px;" class="imageLink va6" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50723.jpg', '_blank');"></div>
+<div class="head">
+<span class="apparatus app-N200D6 clickable" onclick="matchApp('app-N200D6');"><span class="reading va6 va5 va4 va3 va2 va1 pub1929">OSTENTATIOUS
+				</span><span class="reading va4"><span class="noteicon">c<div class="note">There are notes written in dark green and pencil on this draft that appear to be in Djuna Barnes's handwriting. The notes read: &ldquo;I spooked (10)/I am adrift, God is so slow/with me (16) (18)/Photo made by Andre Kertesz/5 rue de Vanues/P.14/Cast by Oscar Stornoro&rdquo;.</div>
+</span></span><span class="reading pub1929"><span class="noteicon">c<div class="note">In this version, lines that appear as &ldquo;Castle Cloud&rsquo;s / Leafy limbswish&rdquo; and &ldquo;Big She-moon&rsquo;s /Cheekflushed /Travesty&rdquo; in the manuscripts are printed in the June 1929 issue of <span class="hi rend-italics">tradition</span> as &ldquo;Castle Cloud&rsquo;d / Leafy limbswish&rdquo; and &ldquo;Big She-moon&rsquo;d /Cheek Flushed /Travesty,&rdquo; the &ldquo;d&rdquo; in lieu of the &ldquo;s&rdquo; on &ldquo;Cloud&rdquo; and &ldquo;Moon.</div>
+</span></span></span>
+</div>
+<div class="lg lg-n1">
+<div class="line lineN200EF" onclick="matchLine('lineN200EF');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N200F0');"><span class="reading va5"><del>ALOFT:</del></span></span>
+</div>
+<div class="line lineN200F7" onclick="matchLine('lineN200F7');">
+<div class="linenumber" style="visibility: hidden;">1</div>
+<span class="apparatus" onclick="matchApp('app-N200F9');"><span class="reading all"> VIVID FALL</span><span class="reading va6 va4 va3 va1">'</span><span class="reading va6 va5 va2">S</span><span class="reading pub1929">Vivid fall's</span></span>
+</div>
+<div class="line lineN20108" onclick="matchLine('lineN20108');">
+<div class="linenumber" style="visibility: hidden;">2</div>
+<span class="apparatus" onclick="matchApp('app-N2010A');"><span class="reading va5 va4 va3 va2 va1">BUGLE SKY</span><span class="reading va5 va3 va1">&nbsp;&mdash;</span><span class="reading pub1929">Bugle sky -</span></span>
+</div>
+<div class="line lineN20116" onclick="matchLine('lineN20116');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N20117');"><span class="reading va5"><del>BELOW:</del></span></span>
+</div>
+<div class="line lineN2011E" onclick="matchLine('lineN2011E');">
+<div class="linenumber" style="visibility: hidden;">3</div>
+<span class="apparatus" onclick="matchApp('app-N20120');"><span class="reading va5 va2 va4 va3 va1">CASTLE CLOUD</span><span class="reading va4 va3 va1">'</span><span class="reading va5 va2 va4 va3 va1">S</span><span class="reading pub1929">Castle Cloud'd</span></span>
+</div>
+<div class="line lineN2012F" onclick="matchLine('lineN2012F');">
+<div class="linenumber" style="visibility: hidden;">4</div>
+<span class="apparatus" onclick="matchApp('app-N20131');"><span class="reading all">LEAFY LIMBSWISH </span><span class="reading va5 va4 va3 va1">&mdash;&mdash;</span><span class="reading va1"> &nbsp;&nbsp;&mdash;&mdash;</span><span class="reading pub1929">Leafy limbswish - </span></span>
+</div>
+</div>
+<div class="lg lg-n2">
+<div class="head">
+<span class="apparatus app-N20143 clickable" onclick="matchApp('app-N20143');"><span class="reading va2 va1 pub1929">
+<br>
+<br>WESTWARD: </span></span>
+</div>
+<div class="line lineN2014B" onclick="matchLine('lineN2014B');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N2014C');"><span class="reading va6 va5 va4 va3">WESTWARD:</span></span>
+</div>
+<div class="line lineN20151">
+<div class="linenumber" style="visibility: hidden;">5</div>
+<span class="apparatus loc-a9" onclick="matchApp(this.className);"><span class="reading all">SAXOPHONE DAY</span><span class="reading va6 va5 va4 va3 va1">'</span><span class="reading all">S </span></span><span class="apparatus loc-a9" onclick="matchApp(this.className);"><span class="reading pub1929">Saxophone day's</span></span>
+</div>
+<div class="line lineN20166">
+<div class="linenumber" style="visibility: hidden;">6</div>
+<span class="apparatus loc-a9a" onclick="matchApp(this.className);"><span class="reading va6 va5 va4 va3">STEEL</span><span class="reading va5">&nbsp;</span><span class="reading va6 va5 va4 va3">BLAST GALAXY</span><span class="reading va6"> - </span><span class="reading va4">&nbsp;&mdash;&mdash;</span></span>
+</div>
+<div class="line lineN2017D">
+<div class="linenumber" style="visibility: hidden;">6</div>
+<span class="apparatus loc-a9a" onclick="matchApp(this.className);"><span class="reading va2"><span class="choice">STEALBLAST<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>STEELBLAST</div>
+</div>
+</span></span><span class="reading va1">STEELBLAST</span><span class="reading pub1929">Steel Blast</span></span>
+</div>
+<div class="line lineN20190">
+<div class="linenumber" style="visibility: hidden;">7</div>
+<span class="apparatus loc-a9a" onclick="matchApp(this.className);"><span class="reading va1 va2">GALAXY </span><span class="reading pub1929">Galaxy </span><span class="reading va1 pub1929">&mdash;&mdash; 
+						</span></span>
+</div>
+</div>
+<div class="lg lg-n3">
+<div class="head">
+<span class="apparatus app-N201A2 clickable" onclick="matchApp('app-N201A2');"><span class="reading va2 va1 pub1929">
+<br>
+<br>EASTWARD:
+						</span></span>
+</div>
+<div class="line lineN201AA" onclick="matchLine('lineN201AA');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N201AB');"><span class="reading va6 va5 va4 va3">EASTWARD &nbsp; :</span></span>
+</div>
+<div class="line lineN201B1">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va2">BIG <del>SH</del></span></span>
+</div>
+<div class="line lineN201B9">
+<div class="linenumber" style="visibility: hidden;">8</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va6 va5 va4 va3 va1"> BIG </span><span class="reading va6 va5 va4 va3 va1">SHE-MOON</span><span class="reading va6 va5 va3 va1">'</span><span class="reading va6 va5 va4 va3 va1">S </span></span><span class="apparatus loc-a15a" onclick="matchApp(this.className);"><span class="reading va6 va5 va4 va3">CHEEK<span class="apparatus" onclick="matchApp('app-N201D2');"><span class="reading va5">&nbsp;</span><span class="reading va6 va5 va4 va3"> FLUSHED TRAVESTY</span><span class="reading va5"><del>'S</del></span><span class="reading va6"><del> -</del></span></span></span></span>
+</div>
+<div class="line lineN201E3">
+<div class="linenumber" style="visibility: hidden;">8</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va2">SHE-MOONS</span><span class="reading pub1929"> Big she moon'd</span></span>
+</div>
+<div class="line lineN201EF">
+<div class="linenumber" style="visibility: hidden;">9</div>
+<span class="apparatus loc-a15a" onclick="matchApp(this.className);"><span class="reading va2 va1">CHEEKFLUSHED</span><span class="reading pub1929">Cheek Flushed </span></span>
+</div>
+<div class="line lineN201FB">
+<div class="linenumber" style="visibility: hidden;">10</div>
+<span class="apparatus loc-a15a" onclick="matchApp(this.className);"><span class="reading va2 va1">TRAVESTY 
+					 </span><span class="reading pub1929">Travesty</span></span>
+</div>
+<div class="line lineN20207">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a19" onclick="matchApp(this.className);"><span class="reading va5"><del>FLAMBOYANT STRUMPET</del></span></span>
+</div>
+<div class="line lineN20210" onclick="matchLine('lineN20210');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N20211');"><span class="reading va5"><del>WAXING</del></span></span>
+</div>
+</div>
+<div class="lg lg-n4">
+<div class="head">
+<span class="apparatus loc-a21 app-N2021B clickable" onclick="matchApp(this.className);"><span class="reading va2 va1 pub1929">
+<br>
+<br> AGOG </span></span>
+</div>
+<div class="line lineN20222">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a21" onclick="matchApp(this.className);"><span class="reading va5"><del>ALONG</del><ins>GOG</ins></span><span class="reading va6 va4 va3">AGOG
+				  	</span></span>
+</div>
+<div class="line lineN20230">
+<div class="linenumber" style="visibility: hidden;">11</div>
+<span class="apparatus loc-a22" onclick="matchApp(this.className);"><span class="reading all">ULTRAMARINE </span><span class="reading va6 va5 va4 va3 va2 va1">AVENUE</span><span class="reading va6 va4 va3">'</span><span class="reading va6 va5 va4 va3">S </span></span><span class="apparatus loc-a22a" onclick="matchApp(this.className);"><span class="reading va6 va5 va4 va3">LIMPID THOROUGHFARE 
+						</span></span><span class="apparatus" onclick="matchApp('app-N20247');"><span class="reading pub1929">Ultramarine</span></span>
+</div>
+<div class="line lineN2024B">
+<div class="linenumber" style="visibility: hidden;">12</div>
+<span class="apparatus loc-a22" onclick="matchApp(this.className);"><span class="reading va2 va1">AVENUES</span><span class="reading pub1929">Avenues</span></span>
+</div>
+<div class="line lineN20257">
+<div class="linenumber" style="visibility: hidden;">13</div>
+<span class="apparatus loc-a22a" onclick="matchApp(this.className);"><span class="reading va2 va1">LIMPID 
+              
+            </span><span class="reading pub1929">Limpid</span></span>
+</div>
+<div class="line lineN20263">
+<div class="linenumber" style="visibility: hidden;">14</div>
+<span class="apparatus loc-a22a" onclick="matchApp(this.className);"><span class="reading va2 va1">THOROUGHFARE</span><span class="reading va1">.</span><span class="reading pub1929">Thoroughfare.</span></span>
+</div>
+<div class="line lineN20272">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a19" onclick="matchApp(this.className);"><span class="reading va5"><del>FLAMBOYANT STRUMPET</del></span></span>
+</div>
+<span class="apparatus app-N2027C clickable" onclick="matchApp('app-N2027C');"><span class="reading va6 va4 va3">E.V.F.L.</span></span>
+</div>
+</div>
+</div>
+<div class="panel mssPanel">
+<div class="panelBanner">
+<span onclick="closePanel(this.parentNode.parentNode)" class="closePanel">X</span>Witness <select onchange="changeWitness(this.value,this.parentNode.parentNode);" class="witnessMenu"><option value="va1">1: First </option><option selected value="va2">2: Second </option><option value="va3">3: Third </option><option value="va4">4: Fourth </option><option value="va5">5: Fifth </option><option value="va6">6: Sixth </option><option value="pub1929">7: transition 1929 </option></select>
+</div>
+<div class="mssContent">
+<div class="mssImages">
+<img src="../webfiles/public-common/images/digital/55449/thumb_50713.jpg" style="max-height:60px;max-width:50px;" class="imageLink va1" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50713.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50715.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50715.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50717.jpg" style="max-height:60px;max-width:50px;" class="imageLink va3" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50717.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50719.jpg" style="max-height:60px;max-width:50px;" class="imageLink va4" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50719.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50721.jpg" style="max-height:60px;max-width:50px;" class="imageLink va5" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50721.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55449/thumb_50723.jpg" style="max-height:60px;max-width:50px;" class="imageLink va6" onclick="window.open('../webfiles/public-common/images/digital/55449/image_50723.jpg', '_blank');"></div>
+<div class="head">
+<span class="apparatus app-N200D6 clickable" onclick="matchApp('app-N200D6');"><span class="reading va6 va5 va4 va3 va2 va1 pub1929">OSTENTATIOUS
+				</span><span class="reading va4"><span class="noteicon">c<div class="note">There are notes written in dark green and pencil on this draft that appear to be in Djuna Barnes's handwriting. The notes read: &ldquo;I spooked (10)/I am adrift, God is so slow/with me (16) (18)/Photo made by Andre Kertesz/5 rue de Vanues/P.14/Cast by Oscar Stornoro&rdquo;.</div>
+</span></span><span class="reading pub1929"><span class="noteicon">c<div class="note">In this version, lines that appear as &ldquo;Castle Cloud&rsquo;s / Leafy limbswish&rdquo; and &ldquo;Big She-moon&rsquo;s /Cheekflushed /Travesty&rdquo; in the manuscripts are printed in the June 1929 issue of <span class="hi rend-italics">tradition</span> as &ldquo;Castle Cloud&rsquo;d / Leafy limbswish&rdquo; and &ldquo;Big She-moon&rsquo;d /Cheek Flushed /Travesty,&rdquo; the &ldquo;d&rdquo; in lieu of the &ldquo;s&rdquo; on &ldquo;Cloud&rdquo; and &ldquo;Moon.</div>
+</span></span></span>
+</div>
+<div class="lg lg-n1">
+<div class="line lineN200EF" onclick="matchLine('lineN200EF');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N200F0');"><span class="reading va5"><del>ALOFT:</del></span></span>
+</div>
+<div class="line lineN200F7" onclick="matchLine('lineN200F7');">
+<div class="linenumber" style="visibility: hidden;">1</div>
+<span class="apparatus" onclick="matchApp('app-N200F9');"><span class="reading all"> VIVID FALL</span><span class="reading va6 va4 va3 va1">'</span><span class="reading va6 va5 va2">S</span><span class="reading pub1929">Vivid fall's</span></span>
+</div>
+<div class="line lineN20108" onclick="matchLine('lineN20108');">
+<div class="linenumber" style="visibility: hidden;">2</div>
+<span class="apparatus" onclick="matchApp('app-N2010A');"><span class="reading va5 va4 va3 va2 va1">BUGLE SKY</span><span class="reading va5 va3 va1">&nbsp;&mdash;</span><span class="reading pub1929">Bugle sky -</span></span>
+</div>
+<div class="line lineN20116" onclick="matchLine('lineN20116');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N20117');"><span class="reading va5"><del>BELOW:</del></span></span>
+</div>
+<div class="line lineN2011E" onclick="matchLine('lineN2011E');">
+<div class="linenumber" style="visibility: hidden;">3</div>
+<span class="apparatus" onclick="matchApp('app-N20120');"><span class="reading va5 va2 va4 va3 va1">CASTLE CLOUD</span><span class="reading va4 va3 va1">'</span><span class="reading va5 va2 va4 va3 va1">S</span><span class="reading pub1929">Castle Cloud'd</span></span>
+</div>
+<div class="line lineN2012F" onclick="matchLine('lineN2012F');">
+<div class="linenumber" style="visibility: hidden;">4</div>
+<span class="apparatus" onclick="matchApp('app-N20131');"><span class="reading all">LEAFY LIMBSWISH </span><span class="reading va5 va4 va3 va1">&mdash;&mdash;</span><span class="reading va1"> &nbsp;&nbsp;&mdash;&mdash;</span><span class="reading pub1929">Leafy limbswish - </span></span>
+</div>
+</div>
+<div class="lg lg-n2">
+<div class="head">
+<span class="apparatus app-N20143 clickable" onclick="matchApp('app-N20143');"><span class="reading va2 va1 pub1929">
+<br>
+<br>WESTWARD: </span></span>
+</div>
+<div class="line lineN2014B" onclick="matchLine('lineN2014B');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N2014C');"><span class="reading va6 va5 va4 va3">WESTWARD:</span></span>
+</div>
+<div class="line lineN20151">
+<div class="linenumber" style="visibility: hidden;">5</div>
+<span class="apparatus loc-a9" onclick="matchApp(this.className);"><span class="reading all">SAXOPHONE DAY</span><span class="reading va6 va5 va4 va3 va1">'</span><span class="reading all">S </span></span><span class="apparatus loc-a9" onclick="matchApp(this.className);"><span class="reading pub1929">Saxophone day's</span></span>
+</div>
+<div class="line lineN20166">
+<div class="linenumber" style="visibility: hidden;">6</div>
+<span class="apparatus loc-a9a" onclick="matchApp(this.className);"><span class="reading va6 va5 va4 va3">STEEL</span><span class="reading va5">&nbsp;</span><span class="reading va6 va5 va4 va3">BLAST GALAXY</span><span class="reading va6"> - </span><span class="reading va4">&nbsp;&mdash;&mdash;</span></span>
+</div>
+<div class="line lineN2017D">
+<div class="linenumber" style="visibility: hidden;">6</div>
+<span class="apparatus loc-a9a" onclick="matchApp(this.className);"><span class="reading va2"><span class="choice">STEALBLAST<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>STEELBLAST</div>
+</div>
+</span></span><span class="reading va1">STEELBLAST</span><span class="reading pub1929">Steel Blast</span></span>
+</div>
+<div class="line lineN20190">
+<div class="linenumber" style="visibility: hidden;">7</div>
+<span class="apparatus loc-a9a" onclick="matchApp(this.className);"><span class="reading va1 va2">GALAXY </span><span class="reading pub1929">Galaxy </span><span class="reading va1 pub1929">&mdash;&mdash; 
+						</span></span>
+</div>
+</div>
+<div class="lg lg-n3">
+<div class="head">
+<span class="apparatus app-N201A2 clickable" onclick="matchApp('app-N201A2');"><span class="reading va2 va1 pub1929">
+<br>
+<br>EASTWARD:
+						</span></span>
+</div>
+<div class="line lineN201AA" onclick="matchLine('lineN201AA');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N201AB');"><span class="reading va6 va5 va4 va3">EASTWARD &nbsp; :</span></span>
+</div>
+<div class="line lineN201B1">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va2">BIG <del>SH</del></span></span>
+</div>
+<div class="line lineN201B9">
+<div class="linenumber" style="visibility: hidden;">8</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va6 va5 va4 va3 va1"> BIG </span><span class="reading va6 va5 va4 va3 va1">SHE-MOON</span><span class="reading va6 va5 va3 va1">'</span><span class="reading va6 va5 va4 va3 va1">S </span></span><span class="apparatus loc-a15a" onclick="matchApp(this.className);"><span class="reading va6 va5 va4 va3">CHEEK<span class="apparatus" onclick="matchApp('app-N201D2');"><span class="reading va5">&nbsp;</span><span class="reading va6 va5 va4 va3"> FLUSHED TRAVESTY</span><span class="reading va5"><del>'S</del></span><span class="reading va6"><del> -</del></span></span></span></span>
+</div>
+<div class="line lineN201E3">
+<div class="linenumber" style="visibility: hidden;">8</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va2">SHE-MOONS</span><span class="reading pub1929"> Big she moon'd</span></span>
+</div>
+<div class="line lineN201EF">
+<div class="linenumber" style="visibility: hidden;">9</div>
+<span class="apparatus loc-a15a" onclick="matchApp(this.className);"><span class="reading va2 va1">CHEEKFLUSHED</span><span class="reading pub1929">Cheek Flushed </span></span>
+</div>
+<div class="line lineN201FB">
+<div class="linenumber" style="visibility: hidden;">10</div>
+<span class="apparatus loc-a15a" onclick="matchApp(this.className);"><span class="reading va2 va1">TRAVESTY 
+					 </span><span class="reading pub1929">Travesty</span></span>
+</div>
+<div class="line lineN20207">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a19" onclick="matchApp(this.className);"><span class="reading va5"><del>FLAMBOYANT STRUMPET</del></span></span>
+</div>
+<div class="line lineN20210" onclick="matchLine('lineN20210');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N20211');"><span class="reading va5"><del>WAXING</del></span></span>
+</div>
+</div>
+<div class="lg lg-n4">
+<div class="head">
+<span class="apparatus loc-a21 app-N2021B clickable" onclick="matchApp(this.className);"><span class="reading va2 va1 pub1929">
+<br>
+<br> AGOG </span></span>
+</div>
+<div class="line lineN20222">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a21" onclick="matchApp(this.className);"><span class="reading va5"><del>ALONG</del><ins>GOG</ins></span><span class="reading va6 va4 va3">AGOG
+				  	</span></span>
+</div>
+<div class="line lineN20230">
+<div class="linenumber" style="visibility: hidden;">11</div>
+<span class="apparatus loc-a22" onclick="matchApp(this.className);"><span class="reading all">ULTRAMARINE </span><span class="reading va6 va5 va4 va3 va2 va1">AVENUE</span><span class="reading va6 va4 va3">'</span><span class="reading va6 va5 va4 va3">S </span></span><span class="apparatus loc-a22a" onclick="matchApp(this.className);"><span class="reading va6 va5 va4 va3">LIMPID THOROUGHFARE 
+						</span></span><span class="apparatus" onclick="matchApp('app-N20247');"><span class="reading pub1929">Ultramarine</span></span>
+</div>
+<div class="line lineN2024B">
+<div class="linenumber" style="visibility: hidden;">12</div>
+<span class="apparatus loc-a22" onclick="matchApp(this.className);"><span class="reading va2 va1">AVENUES</span><span class="reading pub1929">Avenues</span></span>
+</div>
+<div class="line lineN20257">
+<div class="linenumber" style="visibility: hidden;">13</div>
+<span class="apparatus loc-a22a" onclick="matchApp(this.className);"><span class="reading va2 va1">LIMPID 
+              
+            </span><span class="reading pub1929">Limpid</span></span>
+</div>
+<div class="line lineN20263">
+<div class="linenumber" style="visibility: hidden;">14</div>
+<span class="apparatus loc-a22a" onclick="matchApp(this.className);"><span class="reading va2 va1">THOROUGHFARE</span><span class="reading va1">.</span><span class="reading pub1929">Thoroughfare.</span></span>
+</div>
+<div class="line lineN20272">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a19" onclick="matchApp(this.className);"><span class="reading va5"><del>FLAMBOYANT STRUMPET</del></span></span>
+</div>
+<span class="apparatus app-N2027C clickable" onclick="matchApp('app-N2027C');"><span class="reading va6 va4 va3">E.V.F.L.</span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="notesPanel" class="panel" style="display: none;">
+<div class="panelBanner">
+<span onclick="hideNotesPanel();" class="closePanel">X</span>
+            Textual Notes
+         </div>
+<div class="noteContentva4">
+<div class="witnesses">va4</div>There are notes written in dark green and pencil on this draft that appear to be in Djuna Barnes's handwriting. The notes read: &ldquo;I spooked (10)/I am adrift, God is so slow/with me (16) (18)/Photo made by Andre Kertesz/5 rue de Vanues/P.14/Cast by Oscar Stornoro&rdquo;.</div>
+<div class="noteContentpub1929">
+<div class="witnesses">pub1929</div>In this version, lines that appear as &ldquo;Castle Cloud&rsquo;s / Leafy limbswish&rdquo; and &ldquo;Big She-moon&rsquo;s /Cheekflushed /Travesty&rdquo; in the manuscripts are printed in the June 1929 issue of <span class="hi rend-italics">tradition</span> as &ldquo;Castle Cloud&rsquo;d / Leafy limbswish&rdquo; and &ldquo;Big She-moon&rsquo;d /Cheek Flushed /Travesty,&rdquo; the &ldquo;d&rdquo; in lieu of the &ldquo;s&rdquo; on &ldquo;Cloud&rdquo; and &ldquo;Moon.</div>
+<div class="noteContent" id="noNotesFound">
+            Sorry, but there are no notes associated with
+            any currently displayed witness.
+         </div>
+</div>
+<br class="clear">
+</div>
+<div id="panel_imageViewer" class="viewerRoot">
+<div id="handle_imageViewer" class="viewerHandle" title="Click to drag panel.">
+<span id="title_imageViewer" class="viewerHandleLt">Image Viewer</span><span onclick="return hidePanel('imageViewer');" class="viewerHandleRt">X</span>
+</div>
+<div id="content_imageViewer" class="viewerContent"></div>
+</div>
+</body>
+</html>
+<div hidden=true id="miradorDiv"/>
+
+<script type="text/javascript" src="../webfiles/public-common/js/digital/mirador-transition.js"></script>

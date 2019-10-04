@@ -1,0 +1,565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:search="http://www.fedora.info/definitions/1/0/types/" xmlns:collection="http://www.itd.umd.edu/fedora/collection" xmlns:doInfo="http://www.itd.umd.edu/fedora/doInfo" xmlns:tei="http://www.tei-c.org/ns/1.0" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Caf&eacute; du D&ocirc;me -- The Versioning Machine 4.0</title>
+<link type="text/css" rel="stylesheet" href="../webfiles/public-common/css/digital/transition/vmachine.css">
+<!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="../includes/css/transition/vmachine_ie7.css">
+         <![endif]-->
+<script type="text/javascript" src="../webfiles/public-common/js/digital/transition.js"></script><script type="text/javascript">
+      var witnesses = new Array();
+      
+         witnesses["va1"] = "all;va1";
+      
+         witnesses["va2"] = "all;va2";
+      
+         witnesses["va3"] = "all;va3";
+      
+         witnesses["va4"] = "all;va4";
+      
+         witnesses["pub1927"] = "all;pub1927";
+      
+      var maxPanels = 5;
+   </script>
+</head>
+<body onload="init();">
+<div id="mainBanner">
+<div id="brandingLogo">
+<a href="https://www.lib.umd.edu/"><img src="../webfiles/public-common/images/digital/collections/trn/vm-images/libraries2.png" alt="University of Maryland Libraries" id="logo1"></a><a href="index.html"><img src="../webfiles/public-common/images/digital/collections/trn/vm-images/dc2.png" alt="Digital Collections" id="logo2"></a>
+</div>
+<div id="headline">
+<h1 onclick="toggleBiblio();">Caf&eacute; du D&ocirc;me</h1>
+<span class="versionCount"> has 5 versions</span>
+</div>
+<!-- <img alt="" src="https://digital.lib.umd.edu/images/digital/collections/transition/vm-images/topedge.gif" id="topEdge"><div id="mainControls"> -->
+<input onclick="openPanel();" value="New Version" id="newPanel" type="button">
+         &bull;
+         <input onclick="toggleBiblio();" value="Bibliographic Info" id="bibToggle" type="button">
+         &bull;
+         <input onclick="toggleCrit();" value="Critical Introduction" id="critToggle" type="button">
+         &bull;
+         <span class="lineNumbersToggle"><label for="toggleLineNumbers">Line Numbers:</label><input onclick="toggleLineNumbers(this.checked);" id="toggleLineNumbers" type="checkbox">
+            &bull;
+         </span><select id="notesMenu" disabled><option>No notes found</option></select>
+         &bull;
+         Index to <i><a href="https://digital.lib.umd.edu/transition">In Transition</a></i> | <a target="_blank" href="https://umd.edu/web-accessibility">Web Accessibility</a>
+</div>
+</div>
+<div id="mssArea">
+<div id="bibPanel" class="panel">
+<div class="panelBanner">
+<span onclick="toggleBiblio()" class="closePanel">X</span>
+            Bibliographic Information
+         </div>
+<div class="bibContent">
+<h2>Caf&eacute; du D&ocirc;me</h2>
+<h3>
+                  by Baroness Elsa von Freytag-Loringhoven</h3>
+<h4>Original Source</h4>
+<p>Encoded documents and images are derived from manuscripts in the <a href="http://www.lib.umd.edu/litmss/holdings.html#evfl" class="link">Papers of Elsa von Freytag-Loringhoven</a> in Special Collections at the University of Maryland, College Park, Libraries. In addition, individual pages or leaves of manuscripts are identified by the corresponding reel and frame numbers of the microfilm edition of the Freytag-Lorinhoven Papers.</p>
+<h4>Witness List</h4>
+<ul>
+<li>First: Reel 3, Frame 236                        </li>
+<li>Second: Reel 3, Frames 237 and 238 
+                        </li>
+<li>Third: Reel 3, Frame 239
+                        </li>
+<li>Fourth: Reel 5, Frame 208
+                        </li>
+<li>Fifth: this version appeared in transition 7 (October 1927): 134. There is no image for this version. 
+                    </li>
+</ul>
+<h4>Textual Notes</h4>
+<div class="note">Drafts of this poem occupy series 3, box 1, folder 28. The Fourth version is on the same page as a draft of <a href="https://digital.lib.umd.edu/transition/transition/poem?pid=umd:55449" class="link">"<span class="hi">Ostentatious</span>"</a> and <a href="https://digital.lib.umd.edu/transition/transition/poem?pid=umd:55432" class="link">"<span class="hi">Ancestry</span>"</a>; it occupies series 3, box 3, folder 17. The poem was
+                    written between 1923 and 1927. The fifth version was published alongside "<a href="https://digital.lib.umd.edu/transition/transition/poem?pid=umd:55458" class="link"><span class="hi">Xray</span></a>" in <span class="hi rend-italics">transition</span> 7 (October 1927): 134. </div>
+<h4>Electronic Edition Information:</h4>
+<h5>Responsibility Statement:</h5>
+<ul>
+<li>Text Encoding by Tanya Clement</li>
+<li>Proofing and Additional Encoding by Tanya Clement</li>
+<li>TIFF images scanned at 600 dpi from manuscript pages and JPEGS derived byTanya Clement</li>
+</ul>
+<h5>Publication Details:</h5>
+<p>Published by Tanya Clement.</p>Office of Digital Collections and Research (DCR), University of Maryland, College Park, MD 20742<p>Baroness Elsa von Freytag-Loringhoven's poetry is printed here with the support of the University of Maryland Libraries. Permission to reproduce images of
+                        Freytag-Loringhoven's manuscripts has also been generously granted by the libraries.</p>
+<p>This poem and manuscript drafts are available from this site for
+                        demonstration purposes only. Though the intellectual property of Elsa von Freytag-Loringhoven is in the public domain, all annotations and editorial commentary are copyrighted. They may not be reproduced without explicit
+                        permission from the copyright holder. For copyright information, please
+                        contact Tanya Clement.</p>
+<h4>Encoding Principles</h4>
+<p>DTD constructed from TEI P5 poetry base with tagsets for parallel segmentation, linking, figures, analysis, transcr, textcrit.</p>
+<p>Line breaks have not been preserved in prose sections in order to facilitate parallel segmentation procedures.</p>
+</div>
+</div>
+<div id="critPanel" class="panel">
+<div class="panelBanner">
+<span onclick="toggleCrit()" class="closePanel">X</span>
+            Critical Introduction
+         </div>
+<div class="critContent">
+<h4>Critical Introduction</h4>
+<p>
+                        "Caf&eacute; du D&ocirc;me" was published alongside her poem "XRay" in <span class="hi rend-italic">transition</span> 7 (October 1927): 134-135. Caf&eacute; du D&ocirc;me in Montparnasse, Paris was a favorite stopping place for Parisians and expatriates during the twenties. In the Baroness&rsquo;s writings, it represents a site in Paris where all types of marginalized identities such as artists, writers, bisexuals and trans-sexuals could meet and greet alongside tourists and common Parisians. The Caf&eacute; encapsulates this network of personalities but so does Marcel Duchamp whose personality the Baroness gestures toward here with the opposing images of "Mike" (the common man),  "marcelled" (the highly coiffed and pampered man), "Saint Kyk" (both elevated and denigrated) and "Garcon!" (the object of the poem but a boy mean to cater to her demands).  Needless to say, the Baroness&rsquo;s feelings towards Duchamp were conflicted. She both admired him for his innovative and experimental art and abhorred him for his widespread success, which brought him both recognition and monetary rewards: "<span class="hi rend-underline">MARCEL</span>," she writes in an undated letter to Djuna Barnes, &lsquo;IS PERMITTE<span class="choice">T<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>D</div>
+</div>
+</span> TO DO ART &ndash; WITHOUT HAVING POVERTY <span class="hi rend-underline">SQUEEZE</span> HIS <span class="hi rend-underline">WIND PIPE</span> &ndash;AND OTHERS &ndash; SO <span class="hi rend-underline">MANY</span> - <span class="hi rend-underline">MANY</span>!!!" (UMD 2.320). THESE THEMES ARE ALSO PREVALENT IN THE SHORT AUTOBIOGRAPHICAL PIECE THE BARONESS INCLUDES ON THE BACK OF VERSION 2 OF THE POEM IN WHICH SHE RECOUNTS AN INCIDENT WITH HER EX-HUSBAND "FELIX" (CANADIAN WRITER FELIX PAUL GROVE) WHERE HE REPRIMANDS HER FOR HER "SUNDAY" ATTITUDE OR FRIVOLOUSNESS  AND HER DESIRE TO BUY "FURS AND HATS" (HER "FRIPPERY") WHILE SHE DESPISES HIM FOR HIS MANIKIN-LIKE WORK-ETHIC, HIS "POUNDING" AND "CLICK CLICK CLICK" ON THE TYPEWRITER. THE CAF&Eacute; REPRESENTS THE DICHOTOMY ("UN PNEUMATIC CROSS") THE BARONESS PERCEIVED BETWEEN THE DECADENT OR ENRICHED LIFE AN ARTIST MUST EXPERIENCE IN ORDER TO PRODUCE HER ART ("IT IS ALWAYS SUNDAY -" THE NARRATOR SAYS TO FELIX, "IT MUST BE - HOW SHALL I LIVE") AND THE MONEY ONE MUST EARN IN ORDER TO AFFORD SUCH AMENITIES AND EXPERIENCES.</p>
+<p>
+                        The Baroness mentions the Caf&eacute; in one other short prose piece that bears some relevancy both to the context in which the poem was published (alongside "Xray") and to the themes in the poem discussed above.  This prose piece is written on the back of a pamphlet for a Man Ray exhibit called "Peintures de Kiki" which featured paintings of Alice Prin, Man Ray&rsquo;s lover in the 1920s. The piece is written in two versions, the second of which I include here:
+                        "IT IS NICE HE GIRL- SHE MAN &ndash; WHENEVER I ENTER IN FAMOUS DOME TO WHOM <del>HAPPENS</del>- AS TO ME <ins>GIFTED WITH XRAY ORBS OF SORRY SORT</ins> CLAIRVOYANCE THROUGH <del>HIS</del> ATTIRE OBSERVING IT - <del>THIS PHENOMENON</del> HAPPENS THIS PHENOMENON: <ins class="place-margin">LIKE</ins> AS IN <ins>THOUGH MY</ins>  FEAR OF UNEXPECTED DISCHARGE BY SUDDEN FIT OF <span class="choice">DARRHEEA<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>DIARRHEA </div>
+</div>
+</span> -- <del>HE</del> UP PURSES HIS ARSHOLE BY <del>FEAR</del><ins>THOUGHT</ins> OF HAVING TO UNPURSE HIS PURSE. IT IS THIS FERTILIZER OF OUR WORLD CONSTITUTION FLOURISHING PROGRESS HE IS LOATH TO PART EVEN TINIEST MORSEL WITH &ndash; THOUGH &ndash; WHEN I SEE HIM SITTING <del>SO I GOT FOR FANCY</del><ins>FANCY FREE</ins> -- TO ALL SEEMING <ins>COMFORTABLY</ins> SIPPING HIS LITTLE DRINK &ndash; UNTIL HE CATCHES MY SIGHT&mdash;FREEZING PURSING UP IN THAT  FREEZING RUSHING WAY SRRRRRRR &ndash; I &ndash; THOUGH WHEN I SEE HIM &ndash; TO ALL SEEMING SITTING FANCY FREE SIPPING HIS LITTLE DRINK UNTIL HE <ins>SRRR</ins> CATCHES MY SIGHT <del>SRRR</del> -- PURSING UP IN <del>THAT</del><ins class="place-below">SUCK</ins> RUSHING HURRY &ndash; THAT I <ins class="place-below">HEAR NOISE --</ins> SEE STRING PULLED SIPPING HIS LITTLE DRINK --</p>
+</div>
+</div>
+<div id="manuscripts">
+<div class="panel mssPanel">
+<div class="panelBanner">
+<span onclick="closePanel(this.parentNode.parentNode)" class="closePanel">X</span>Witness <select onchange="changeWitness(this.value,this.parentNode.parentNode);" class="witnessMenu"><option selected value="va1">1: First </option><option value="va2">2: Second </option><option value="va3">3: Third </option><option value="va4">4: Fourth </option><option value="pub1927">5: Fifth </option></select>
+</div>
+<div class="mssContent">
+<div class="mssImages">
+<img src="../webfiles/public-common/images/digital/55435/thumb_50603.jpg" style="max-height:60px;max-width:50px;" class="imageLink va1" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50603.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55435/thumb_50605.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50605.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55435/thumb_50607.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50607.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55435/thumb_50609.jpg" style="max-height:60px;max-width:50px;" class="imageLink va3" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50609.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55435/thumb_50611.jpg" style="max-height:60px;max-width:50px;" class="imageLink va4" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50611.jpg', '_blank');"></div>
+<div class="div1">
+<div class="head rend-underline">
+<span class="apparatus app-N2010C clickable" onclick="matchApp('app-N2010C');"><span class="reading va3 va2 va1">CAF&Eacute; DU D</span><span class="reading va3">O</span><span class="reading va2 va1">&Ocirc;</span><span class="reading va3 va2 va1">M</span><span class="reading va1">&Eacute;.</span><span class="reading va2 va3">E</span></span>
+</div>
+<div class="head">
+<span class="apparatus app-N20122 clickable" onclick="matchApp('app-N20122');"><span class="reading pub1927">CAF&Eacute; DU DOME</span><span class="reading va4">CAF&Eacute; DU DOME.</span></span>
+</div>
+<div class="lg">
+<div class="line lineN2012C">
+<div class="linenumber" style="visibility: hidden;">1</div>
+<span class="apparatus loc-a3" onclick="matchApp(this.className);"><span class="reading va3 va2 va1">FOR THE LOVE OF MIKE </span><span class="reading va4"><ins class="place-below">FOR TH' LUF O' MIKE</ins></span><span class="reading pub1927">For the love of Mike</span><span class="reading va3">-</span><span class="reading va2 va1 pub1927">!</span></span>
+</div>
+<div class="line lineN20143" onclick="matchLine('lineN20143');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N20144');"><span class="reading va4"><del>KNOCK ME FLAT</del></span></span>
+</div>
+<div class="line lineN2014B" onclick="matchLine('lineN2014B');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N2014C');"><span class="reading va4"><del>FOR THE LUF OF MIKE -</del></span></span>
+</div>
+<div class="line lineN20153" onclick="matchLine('lineN20153');">
+<div class="linenumber" style="visibility: hidden;">2</div>
+<span class="apparatus" onclick="matchApp('app-N20155');"><span class="reading va3 va2 va1 va4">LOOK AT THAT </span><span class="reading pub1927">Look at that</span><span class="reading va2 pub1927">-</span></span>
+</div>
+<div class="line lineN20161" onclick="matchLine('lineN20161');">
+<div class="linenumber" style="visibility: hidden;">3</div>
+<span class="apparatus" onclick="matchApp('app-N20163');"><span class="reading va3 va2 va1 va4">MARCEL</span><span class="reading va4"><ins class="place-inline">L</ins></span><span class="reading va3 va2 va1">L</span><span class="reading va3 va2 va1 va4">ED </span><span class="reading pub1927">Marcelled</span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN2017A" onclick="matchLine('lineN2017A');">
+<div class="linenumber" style="visibility: hidden;">4</div>
+<span class="apparatus" onclick="matchApp('app-N2017C');"><span class="reading va3 va2 va1 va4">BE - WHI</span><span class="reading va3 va2 va1">S</span><span class="reading va3 va2 va1 va4">KERED  </span><span class="reading pub1927">Be-whiskered</span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN2018E" onclick="matchLine('lineN2018E');">
+<div class="linenumber" style="visibility: hidden;">5</div>
+<span class="apparatus" onclick="matchApp('app-N20190');"><span class="reading va3 va2 va1 va4">BE - SPATTED  </span><span class="reading pub1927">Be-spatted</span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN2019C" onclick="matchLine('lineN2019C');">
+<div class="linenumber" style="visibility: hidden;">6</div>
+<span class="apparatus" onclick="matchApp('app-N2019E');"><span class="reading va3 va2 va1 va4">P</span><span class="reading pub1927">Patheitic</span><span class="reading va3 va1"><del class="rend-overstrike"><span class="unclear">??</span></del></span><span class="reading 3"><ins class="place-inline">A</ins></span><span class="reading va3 va2 va4">A</span><span class="reading va3 va2 va1 va4">THETIC </span><span class="reading va2 pub1927">-</span></span>
+</div>
+<div class="line lineN201B9" onclick="matchLine('lineN201B9');">
+<div class="linenumber" style="visibility: hidden;">7</div>
+<span class="apparatus" onclick="matchApp('app-N201BB');"><span class="reading va3 va2 va1 va4">L</span><span class="reading pub1927">Lymphatic</span><span class="reading va3 va4">I</span><span class="reading va2 va1">Y</span><span class="reading va3 va2 va1 va4">MPHATIC </span><span class="reading va2">-</span></span>
+</div>
+<div class="line lineN201CE" onclick="matchLine('lineN201CE');">
+<div class="linenumber" style="visibility: hidden;">8</div>
+<span class="apparatus" onclick="matchApp('app-N201D0');"><span class="reading pub1927">Aesthetic</span><span class="reading va3 va2 va1 va4">ESTHETIC</span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN201DA" onclick="matchLine('lineN201DA');">
+<div class="linenumber" style="visibility: hidden;">9</div>
+<span class="apparatus" onclick="matchApp('app-N201DC');"><span class="reading va3 va2 va1 va4">PIG</span><span class="reading va4">-</span><span class="reading va3 va2 va1 va4">PINK </span><span class="reading pub1927">Pigpink</span><span class="reading va2 va1">-</span></span>
+</div>
+<div class="line lineN201EC" onclick="matchLine('lineN201EC');">
+<div class="linenumber" style="visibility: hidden;">10</div>
+<span class="apparatus" onclick="matchApp('app-N201EE');"><span class="reading va3 va2 va1 va4">QUAINT </span><span class="reading pub1927">Quaint </span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN201F8">
+<div class="linenumber" style="visibility: hidden;">11</div>
+<span class="apparatus loc-11a" onclick="matchApp(this.className);"><span class="reading va1 va3 va4">FASHIONABLE</span><span class="reading va2"><del class="rend-overstrike">FASHIONABLE</del></span></span><span class="apparatus loc-11b" onclick="matchApp(this.className);"><span class="reading va2"><ins class="place-above"> NATTY </ins></span><span class="reading pub1927">Natty</span><span class="reading va2 pub1927"> -</span></span>
+</div>
+<div class="line lineN20211">
+<div class="linenumber" style="visibility: hidden;">12</div>
+<span class="apparatus loc-12a" onclick="matchApp(this.className);"><span class="reading va3 va2 va1 va4">SAINT </span><span class="reading va3 va2 va1">KYK</span><span class="reading pub1927">Saintkyk</span><span class="reading va3">-</span><span class="reading va2 pub1927">!</span></span>
+</div>
+<div class="line lineN20224">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-12a" onclick="matchApp(this.className);"><span class="reading va4">KYK!</span></span>
+</div>
+<div class="line lineN2022A" onclick="matchLine('lineN2022A');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N2022B');"><span class="reading pub1927">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+</div>
+<div class="line lineN20231">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a3" onclick="matchApp(this.className);"><span class="reading va3"><del class="rend-overstrike">FOR THE LOVE OF MIKE</del></span></span>
+</div>
+<div class="line lineN20239" onclick="matchLine('lineN20239');">
+<div class="linenumber" style="visibility: hidden;">13</div>
+<span class="apparatus" onclick="matchApp('app-N2023B');"><span class="reading va3 va2 va1 va4">GARCON</span><span class="reading pub1927">Gar&ccedil;on</span><span class="reading va3">-</span><span class="reading va2"><del class="rend-overstrike"><span class="unclear">??</span></del></span><span class="reading va2 va1"> !</span></span>
+</div>
+<div class="line lineN2024E">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va4"><del class="rend-overstrike">A RUBBER THISTLE</del></span></span>
+</div>
+<div class="line lineN20256" onclick="matchLine('lineN20256');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N20257');"><span class="reading pub1927">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+</div>
+<div class="line lineN2025D">
+<div class="linenumber" style="visibility: hidden;">14</div>
+<span class="apparatus loc-a14" onclick="matchApp(this.className);"><span class="reading va4"><del class="rend-overstrike">CROWN - AND </del><ins class="place-above">UN </ins></span><span class="reading va3 va2 va1">UN </span><span class="reading va3 va2 va1 va4">PNEUMATIC CROSS </span><span class="reading va4"><ins><del class="rend-overstrike">WH</del></ins></span><span class="reading va3 va2 va1">- </span><span class="reading va3 va2 va1 va4">AVEC </span></span><span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va4"><del class="rend-overstrike">THISTLE AUTOMATIC </del></span></span><span class="apparatus loc-a14" onclick="matchApp(this.className);"><span class="reading va3 va2 va1 va4">SUCTIONDIS</span><span class="reading va3">KS -</span><span class="reading va2 va1 va4">C</span><span class="reading va2 va1">'</span><span class="reading va2 va1 va4">S </span><span class="reading pub1927">Un pneumatic cross avec suctiondiscs</span></span><span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading pub1927"> topped avec thistle-tire . . . </span></span><span class="apparatus loc-a16" onclick="matchApp(this.className);"><span class="reading pub1927">s'il vous pla??t.</span></span>
+</div>
+<div class="line lineN202A0">
+<div class="linenumber" style="visibility: hidden;">15</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va3 va2 va1 va4">TOPPED </span><span class="reading va3 va2 va1">AVEC </span><span class="reading va4"><ins class="place-margin">AVEC </ins></span><span class="reading va4"><del class="rend-overstrike">WITH </del></span><span class="reading va3 va2 va1 va4">RUBBER THISTLE </span><span class="reading va3 va2 va1">WREATH </span><span class="reading va4"><ins class="place-below">WREATH </ins></span><span class="reading va3 va2"> -</span></span>
+</div>
+<div class="line lineN202C2">
+<div class="linenumber" style="visibility: hidden;">16</div>
+<span class="apparatus loc-a16" onclick="matchApp(this.className);"><span class="reading va3 va2 va1 va4">S'IL VOUS PLAIT.</span></span>
+</div>
+</div> E.V.F.L</div>
+<div class="div1">
+<div class="paragraph">
+<span class="apparatus app-N202CF clickable" onclick="matchApp('app-N202CF');"><span class="reading va2">ONE DAY SHE CAME HOME - EXPENSIVELY <del class="rend-overstrike">FASHIONABLY </del> EXPENSIVELY DRESSED <ins>IN FASHION</ins> AS HE LIKED IT TO SATISFY HIS PRIDE IN HIMSELF SHE POUDLY CORRESPONDING EVEN AS TO A CORSET <ins>AND HAIR TRANSFORMATION - FOR SHE HAD SCANT HAIR</ins>. THIS <ins class="place-below">FRIPPERY </ins> WAS BEFORE <del class="rend-overstrike">THE WAR</del> RELEASED WOMEN FROM <span class="apparatus app-N202E5 clickable" onclick="matchApp('app-N202E5');"><span class="rdgGrp">MALE DESIRE <div class="altRdg">TIME <span class="unclear">??</span>
+</div>
+</span></span> LEANING ON THE DOOR FRAME SHE SAID PALPITATING SET CRUEL WITH A WILL SNEERING - <del class="rend-overstrike">WITH </del> PASSION - HOPEDRIVEN HE SAT ON <del class="rend-overstrike">THE </del><ins>HIS </ins> TYPEWRITER  - HIS OTHER PRIDE FOR SHOWING HIS MIND - <ins>VOLUMN </ins> - CAPACITY FOR GAINING SO MUCH VAIN MONEY FOR <span class="choice">STILE<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>STYLE</div>
+</div>
+</span> - POUNDING AWAY NOT EVEN LOOKING AT <del class="rend-overstrike">HIS </del><ins>THE </ins> MANIKIN - OF HIS EXPRESSION - <del class="rend-overstrike"><span class="unclear">??</span></del> SHE <span class="choice">SCORNFULL <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>SCORNFUL</div>
+</div>
+</span> NOTICED: "I SAW A MAN WITH EYES LIKE THE SUN - <del class="rend-overstrike">THAN </del> SHE TREMBLED WOULD HE - JUMP - SEIZE HER - SHAKE HER - SHE YIELD - FLING HERSELF - LAUGH UPROAROUSLY - AT HER LOVER - LOVER - LOVER </span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20317 clickable" onclick="matchApp('app-N20317');"><span class="reading va2">WITH BEND HEAD  <del class="rend-overstrike">FROM </del> BENEATH LASHES FAIR AS BLEACHED <del class="rend-overstrike">FLAT</del><ins>WHEAT STRAW</ins> FROM EYES MIST BLUE DISTANT &amp; FACE - AS IMPENETRABLE MYSTERIOUS - <del class="rend-overstrike">EVER</del> NOSTALGIA WAKING HE SLANTED ONE SLOW WITHINER LOOK AT HER AS A FINE STEELLANCET BY THE WILL TO <del class="rend-overstrike">STAR</del><ins class="place-below">PILORE </ins> FOR SAKE <del class="rend-overstrike">TO</del>OF DRAWING BLOOD AND HURT HE SAID - POINTEDLY IT PROBABLY WAS AN ARTIST.</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20335 clickable" onclick="matchApp('app-N20335');"><span class="reading va2">OH. BUT HE HAD EYES LIKE THE SUN.</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N2033A clickable" onclick="matchApp('app-N2033A');"><span class="reading va2">HAD HE? COULD<del class="rend-overstrike">NT</del> HE PAY YOUR FURS AND HATS -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20343 clickable" onclick="matchApp('app-N20343');"><span class="reading va2">OH FELIX. YOU DON'T EVEN LOOK AT ME - WHEN I CAME HOME - I WANTED TO TELL YOU THIS - TO - TO - MAKE YOU NOTICE -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20348 clickable" onclick="matchApp('app-N20348');"><span class="reading va2">I NOTICE - BUT YOU DON'T NOTICE - ME - ALL AT ITS TIME - I AM BUSY EARNING YOUR FRIPPERY - YOU NEVER COME DOWN TO TACKS  - <del class="rend-overstrike">YO</del> ALWAYS WANT SUNDAY</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20351 clickable" onclick="matchApp('app-N20351');"><span class="reading va2"><ins>IT IS ALWAYS SUNDAY - IT MUST BE - HOW SHALL I LIVE -</ins> IT HAS BEEN - FELIX - BEFORE - REMEMBER - WHY NOT NOW -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20358 clickable" onclick="matchApp('app-N20358');"><span class="reading va2">FREE ME - WHAT SHALL I DO - NOW - HERE -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N2035D clickable" onclick="matchApp('app-N2035D');"><span class="reading va2">I HAVEN'T TIME - DO SOMETHING! - IN THE EVENING -<ins class="place-margin">I'LL SEE WHAT I'LL DO </ins> HE POUNDED AWAY - HAD POUNDED ALL THROUGH THIS <span class="choice">CONVERATION<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>CONVERSATION</div>
+</div>
+</span> -  - <del class="rend-overstrike">THEY </del><span class="choice">BOOTH <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>BOTH </div>
+</div>
+</span><ins>EXPERTLY</ins> WERE USED TO TALK TO THE CLIKC CLICK CLICK - SHE EVEN HAD <span class="choice">REVELD<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>REVELED</div>
+</div>
+</span> IN THIS FACT - ENHANCING HIS UNCANNY MIND BALANCE SKILL - AS HE HAD PAINSTAKINGLY INSTRUCTED HER - TO</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N2037D clickable" onclick="matchApp('app-N2037D');"><span class="reading va2">SHE STOOD AT A MUTE - <del class="rend-overstrike">DE</del> AT A LOSS - DEFEATED <del class="rend-overstrike">AS </del> SHE NEVER WAS QUICK IN ARGUMENT - <span class="choice">WICH<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>WHICH </div>
+</div>
+</span>  DISDAINFULL HE TOOK SUPERIOR MASCULINE ADVANTAGE OF BECAUSE IT MADE HIM LORD <ins>SIMULTANEOUSL </ins><del class="rend-overstrike">AND </del> HURT HIS PRIDE AS HER POSSESOR - BUT SHE WAS PERMEATED WITH DUMB REBELLION. IN HER SYSTEM - <ins>SHE KNEW </ins> HE WAS FLIPPING - AT A TERRIBLE LOSS HIMSELF - BRAIN ZZLING HER EVADING WITH SUPERIOR FLIPP - WHAT WAS THE MATTER - SHE CAME FOR GREAT SUNNY SACRIFICIAL LOVE - NOT FOR <ins>THIS </ins><del class="rend-overstrike">PALTRY </del> QUARREL - A MAN WINS <span class="choice">QUARRELD<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>QUARRELED</div>
+</div>
+</span> - SMALL - TRIFLING HUGH! AND THIS MAN OF ALL MAN - SELF POSSESSED - <del class="rend-overstrike">COLD </del> FIERCELY ICELY BRILLIANT - EVEN <del class="rend-overstrike"><span class="unclear">??</span></del> HIS TALL STEELY SLENDER STATURE WITH SMALL SHINY HEAD <span class="apparatus app-N203AD clickable" onclick="matchApp('app-N203AD');"><span class="rdgGrp">LITHE<div class="altRdg">
+<ins>DETERMINED </ins>
+</div>
+</span></span> FEATURES - HOW COULD HE <del class="rend-overstrike">BE SO </del><ins>DEVOTE </ins><span class="apparatus app-N203BA clickable" onclick="matchApp('app-N203BA');"><span class="rdgGrp">A MALE <div class="altRdg">
+<ins class="place-below">HIMSELF </ins>
+</div>
+</span></span><del class="rend-overstrike">COMMON</del><ins class="place-below">TO SUCH UNSPEAKABLE </ins> EVERY DAY COMMONESS - WHEN SHE CAME WITH FESTIVE BANTER <ins class="place-inline">LIKE STALE BILE</ins> A HORRID <del class="rend-overstrike">SLOW</del> REPULSION SURGED LIKE DILUTED <del class="rend-overstrike">SLOWLY </del><ins class="place-below">BLOOD </ins><del class="rend-overstrike">THROUGH </del> SLOWLY <del class="rend-overstrike">ALL</del> THROUGH HER <del class="rend-overstrike">BLO</del> SYSTEM - MAKING HER DIZZY WITH NOWHERES. WHERE WAS SHE  - HE - WHAT WAS IT? THOSE <ins>OBVIOUS </ins> EYES WERE NOTHING TO HER - SHE HATED THEM - THEY WERE TOO <del class="rend-overstrike">SOLICITOUS</del> - <ins class="place-below">SNOWY </ins> - EXPRESSIVE - VAGRANTLY - SHAMELESS OF EXPOSURE - LIKE PROSTITUTES - SOLICITING - TO BE SOLICITED -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N203F0 clickable" onclick="matchApp('app-N203F0');"><span class="reading va2">SHE WAS SMITTEN WITH - <ins>BLOOD </ins> THRALL TO THIS <ins class="place-below">MANS</ins> EYES <ins>SITTING </ins><span class="apparatus app-N203FD clickable" onclick="matchApp('app-N203FD');"><span class="rdgGrp">ON ICE FILMED <div class="altRdg">
+<ins class="place-below">THE TYPEWRITER </ins>
+</div>
+</span></span> REMOTE <ins class="place-inline">WITH </ins><del class="rend-overstrike">SLIGHTLY </del><ins>MISTY </ins> IMPUDENT <del class="rend-overstrike">STAR</del><ins class="place-below">RIGID </ins> BULGING STARE - <del class="rend-overstrike">WHOSE </del><ins class="place-below">WITH </ins><span class="choice">DEPHTS <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>DEPTHS </div>
+</div>
+</span><del class="rend-overstrike">WERE </del><ins class="place-below">EVER</ins> UNFATHOMED - CHASTE - COOLY <span class="choice">AFFECTIONAT <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>AFFECTIONATE </div>
+</div>
+</span><span class="choice">RETECEND <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>RETICENT </div>
+</div>
+</span> - FIERCELY DETERMINED WITH COLD PASSION - NARROWING TO POINT OF FOIL - WHEN HE <span class="choice">GROW<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>GROWS</div>
+</div>
+</span> LIVID WITH SUPPRESSED RAGE - <span class="choice">WICH<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>WHICH</div>
+</div>
+</span> SELDOM <ins>EVER </ins><span class="choice">OCCURED<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>OCCURRED </div>
+</div>
+</span> - <span class="choice">WICH<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>WHICH</div>
+</div>
+</span> EVER MADE HER - VOLUPTUOUS TO BE STABBED </span></span>
+</div>
+</div>
+</div>
+</div>
+<div class="panel mssPanel">
+<div class="panelBanner">
+<span onclick="closePanel(this.parentNode.parentNode)" class="closePanel">X</span>Witness <select onchange="changeWitness(this.value,this.parentNode.parentNode);" class="witnessMenu"><option value="va1">1: First </option><option selected value="va2">2: Second </option><option value="va3">3: Third </option><option value="va4">4: Fourth </option><option value="pub1927">5: Fifth </option></select>
+</div>
+<div class="mssContent">
+<div class="mssImages">
+<img src="../webfiles/public-common/images/digital/55435/thumb_50603.jpg" style="max-height:60px;max-width:50px;" class="imageLink va1" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50603.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55435/thumb_50605.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50605.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55435/thumb_50607.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50607.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55435/thumb_50609.jpg" style="max-height:60px;max-width:50px;" class="imageLink va3" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50609.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55435/thumb_50611.jpg" style="max-height:60px;max-width:50px;" class="imageLink va4" onclick="window.open('../webfiles/public-common/images/digital/55435/image_50611.jpg', '_blank');"></div>
+<div class="div1">
+<div class="head rend-underline">
+<span class="apparatus app-N2010C clickable" onclick="matchApp('app-N2010C');"><span class="reading va3 va2 va1">CAF&Eacute; DU D</span><span class="reading va3">O</span><span class="reading va2 va1">&Ocirc;</span><span class="reading va3 va2 va1">M</span><span class="reading va1">&Eacute;.</span><span class="reading va2 va3">E</span></span>
+</div>
+<div class="head">
+<span class="apparatus app-N20122 clickable" onclick="matchApp('app-N20122');"><span class="reading pub1927">CAF&Eacute; DU DOME</span><span class="reading va4">CAF&Eacute; DU DOME.</span></span>
+</div>
+<div class="lg">
+<div class="line lineN2012C">
+<div class="linenumber" style="visibility: hidden;">1</div>
+<span class="apparatus loc-a3" onclick="matchApp(this.className);"><span class="reading va3 va2 va1">FOR THE LOVE OF MIKE </span><span class="reading va4"><ins class="place-below">FOR TH' LUF O' MIKE</ins></span><span class="reading pub1927">For the love of Mike</span><span class="reading va3">-</span><span class="reading va2 va1 pub1927">!</span></span>
+</div>
+<div class="line lineN20143" onclick="matchLine('lineN20143');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N20144');"><span class="reading va4"><del>KNOCK ME FLAT</del></span></span>
+</div>
+<div class="line lineN2014B" onclick="matchLine('lineN2014B');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N2014C');"><span class="reading va4"><del>FOR THE LUF OF MIKE -</del></span></span>
+</div>
+<div class="line lineN20153" onclick="matchLine('lineN20153');">
+<div class="linenumber" style="visibility: hidden;">2</div>
+<span class="apparatus" onclick="matchApp('app-N20155');"><span class="reading va3 va2 va1 va4">LOOK AT THAT </span><span class="reading pub1927">Look at that</span><span class="reading va2 pub1927">-</span></span>
+</div>
+<div class="line lineN20161" onclick="matchLine('lineN20161');">
+<div class="linenumber" style="visibility: hidden;">3</div>
+<span class="apparatus" onclick="matchApp('app-N20163');"><span class="reading va3 va2 va1 va4">MARCEL</span><span class="reading va4"><ins class="place-inline">L</ins></span><span class="reading va3 va2 va1">L</span><span class="reading va3 va2 va1 va4">ED </span><span class="reading pub1927">Marcelled</span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN2017A" onclick="matchLine('lineN2017A');">
+<div class="linenumber" style="visibility: hidden;">4</div>
+<span class="apparatus" onclick="matchApp('app-N2017C');"><span class="reading va3 va2 va1 va4">BE - WHI</span><span class="reading va3 va2 va1">S</span><span class="reading va3 va2 va1 va4">KERED  </span><span class="reading pub1927">Be-whiskered</span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN2018E" onclick="matchLine('lineN2018E');">
+<div class="linenumber" style="visibility: hidden;">5</div>
+<span class="apparatus" onclick="matchApp('app-N20190');"><span class="reading va3 va2 va1 va4">BE - SPATTED  </span><span class="reading pub1927">Be-spatted</span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN2019C" onclick="matchLine('lineN2019C');">
+<div class="linenumber" style="visibility: hidden;">6</div>
+<span class="apparatus" onclick="matchApp('app-N2019E');"><span class="reading va3 va2 va1 va4">P</span><span class="reading pub1927">Patheitic</span><span class="reading va3 va1"><del class="rend-overstrike"><span class="unclear">??</span></del></span><span class="reading 3"><ins class="place-inline">A</ins></span><span class="reading va3 va2 va4">A</span><span class="reading va3 va2 va1 va4">THETIC </span><span class="reading va2 pub1927">-</span></span>
+</div>
+<div class="line lineN201B9" onclick="matchLine('lineN201B9');">
+<div class="linenumber" style="visibility: hidden;">7</div>
+<span class="apparatus" onclick="matchApp('app-N201BB');"><span class="reading va3 va2 va1 va4">L</span><span class="reading pub1927">Lymphatic</span><span class="reading va3 va4">I</span><span class="reading va2 va1">Y</span><span class="reading va3 va2 va1 va4">MPHATIC </span><span class="reading va2">-</span></span>
+</div>
+<div class="line lineN201CE" onclick="matchLine('lineN201CE');">
+<div class="linenumber" style="visibility: hidden;">8</div>
+<span class="apparatus" onclick="matchApp('app-N201D0');"><span class="reading pub1927">Aesthetic</span><span class="reading va3 va2 va1 va4">ESTHETIC</span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN201DA" onclick="matchLine('lineN201DA');">
+<div class="linenumber" style="visibility: hidden;">9</div>
+<span class="apparatus" onclick="matchApp('app-N201DC');"><span class="reading va3 va2 va1 va4">PIG</span><span class="reading va4">-</span><span class="reading va3 va2 va1 va4">PINK </span><span class="reading pub1927">Pigpink</span><span class="reading va2 va1">-</span></span>
+</div>
+<div class="line lineN201EC" onclick="matchLine('lineN201EC');">
+<div class="linenumber" style="visibility: hidden;">10</div>
+<span class="apparatus" onclick="matchApp('app-N201EE');"><span class="reading va3 va2 va1 va4">QUAINT </span><span class="reading pub1927">Quaint </span><span class="reading va2 va1 pub1927">-</span></span>
+</div>
+<div class="line lineN201F8">
+<div class="linenumber" style="visibility: hidden;">11</div>
+<span class="apparatus loc-11a" onclick="matchApp(this.className);"><span class="reading va1 va3 va4">FASHIONABLE</span><span class="reading va2"><del class="rend-overstrike">FASHIONABLE</del></span></span><span class="apparatus loc-11b" onclick="matchApp(this.className);"><span class="reading va2"><ins class="place-above"> NATTY </ins></span><span class="reading pub1927">Natty</span><span class="reading va2 pub1927"> -</span></span>
+</div>
+<div class="line lineN20211">
+<div class="linenumber" style="visibility: hidden;">12</div>
+<span class="apparatus loc-12a" onclick="matchApp(this.className);"><span class="reading va3 va2 va1 va4">SAINT </span><span class="reading va3 va2 va1">KYK</span><span class="reading pub1927">Saintkyk</span><span class="reading va3">-</span><span class="reading va2 pub1927">!</span></span>
+</div>
+<div class="line lineN20224">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-12a" onclick="matchApp(this.className);"><span class="reading va4">KYK!</span></span>
+</div>
+<div class="line lineN2022A" onclick="matchLine('lineN2022A');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N2022B');"><span class="reading pub1927">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+</div>
+<div class="line lineN20231">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a3" onclick="matchApp(this.className);"><span class="reading va3"><del class="rend-overstrike">FOR THE LOVE OF MIKE</del></span></span>
+</div>
+<div class="line lineN20239" onclick="matchLine('lineN20239');">
+<div class="linenumber" style="visibility: hidden;">13</div>
+<span class="apparatus" onclick="matchApp('app-N2023B');"><span class="reading va3 va2 va1 va4">GARCON</span><span class="reading pub1927">Gar&ccedil;on</span><span class="reading va3">-</span><span class="reading va2"><del class="rend-overstrike"><span class="unclear">??</span></del></span><span class="reading va2 va1"> !</span></span>
+</div>
+<div class="line lineN2024E">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va4"><del class="rend-overstrike">A RUBBER THISTLE</del></span></span>
+</div>
+<div class="line lineN20256" onclick="matchLine('lineN20256');">
+<div class="emptynumber">&nbsp;</div>
+<span class="apparatus" onclick="matchApp('app-N20257');"><span class="reading pub1927">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+</div>
+<div class="line lineN2025D">
+<div class="linenumber" style="visibility: hidden;">14</div>
+<span class="apparatus loc-a14" onclick="matchApp(this.className);"><span class="reading va4"><del class="rend-overstrike">CROWN - AND </del><ins class="place-above">UN </ins></span><span class="reading va3 va2 va1">UN </span><span class="reading va3 va2 va1 va4">PNEUMATIC CROSS </span><span class="reading va4"><ins><del class="rend-overstrike">WH</del></ins></span><span class="reading va3 va2 va1">- </span><span class="reading va3 va2 va1 va4">AVEC </span></span><span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va4"><del class="rend-overstrike">THISTLE AUTOMATIC </del></span></span><span class="apparatus loc-a14" onclick="matchApp(this.className);"><span class="reading va3 va2 va1 va4">SUCTIONDIS</span><span class="reading va3">KS -</span><span class="reading va2 va1 va4">C</span><span class="reading va2 va1">'</span><span class="reading va2 va1 va4">S </span><span class="reading pub1927">Un pneumatic cross avec suctiondiscs</span></span><span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading pub1927"> topped avec thistle-tire . . . </span></span><span class="apparatus loc-a16" onclick="matchApp(this.className);"><span class="reading pub1927">s'il vous pla??t.</span></span>
+</div>
+<div class="line lineN202A0">
+<div class="linenumber" style="visibility: hidden;">15</div>
+<span class="apparatus loc-a15" onclick="matchApp(this.className);"><span class="reading va3 va2 va1 va4">TOPPED </span><span class="reading va3 va2 va1">AVEC </span><span class="reading va4"><ins class="place-margin">AVEC </ins></span><span class="reading va4"><del class="rend-overstrike">WITH </del></span><span class="reading va3 va2 va1 va4">RUBBER THISTLE </span><span class="reading va3 va2 va1">WREATH </span><span class="reading va4"><ins class="place-below">WREATH </ins></span><span class="reading va3 va2"> -</span></span>
+</div>
+<div class="line lineN202C2">
+<div class="linenumber" style="visibility: hidden;">16</div>
+<span class="apparatus loc-a16" onclick="matchApp(this.className);"><span class="reading va3 va2 va1 va4">S'IL VOUS PLAIT.</span></span>
+</div>
+</div> E.V.F.L</div>
+<div class="div1">
+<div class="paragraph">
+<span class="apparatus app-N202CF clickable" onclick="matchApp('app-N202CF');"><span class="reading va2">ONE DAY SHE CAME HOME - EXPENSIVELY <del class="rend-overstrike">FASHIONABLY </del> EXPENSIVELY DRESSED <ins>IN FASHION</ins> AS HE LIKED IT TO SATISFY HIS PRIDE IN HIMSELF SHE POUDLY CORRESPONDING EVEN AS TO A CORSET <ins>AND HAIR TRANSFORMATION - FOR SHE HAD SCANT HAIR</ins>. THIS <ins class="place-below">FRIPPERY </ins> WAS BEFORE <del class="rend-overstrike">THE WAR</del> RELEASED WOMEN FROM <span class="apparatus app-N202E5 clickable" onclick="matchApp('app-N202E5');"><span class="rdgGrp">MALE DESIRE <div class="altRdg">TIME <span class="unclear">??</span>
+</div>
+</span></span> LEANING ON THE DOOR FRAME SHE SAID PALPITATING SET CRUEL WITH A WILL SNEERING - <del class="rend-overstrike">WITH </del> PASSION - HOPEDRIVEN HE SAT ON <del class="rend-overstrike">THE </del><ins>HIS </ins> TYPEWRITER  - HIS OTHER PRIDE FOR SHOWING HIS MIND - <ins>VOLUMN </ins> - CAPACITY FOR GAINING SO MUCH VAIN MONEY FOR <span class="choice">STILE<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>STYLE</div>
+</div>
+</span> - POUNDING AWAY NOT EVEN LOOKING AT <del class="rend-overstrike">HIS </del><ins>THE </ins> MANIKIN - OF HIS EXPRESSION - <del class="rend-overstrike"><span class="unclear">??</span></del> SHE <span class="choice">SCORNFULL <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>SCORNFUL</div>
+</div>
+</span> NOTICED: "I SAW A MAN WITH EYES LIKE THE SUN - <del class="rend-overstrike">THAN </del> SHE TREMBLED WOULD HE - JUMP - SEIZE HER - SHAKE HER - SHE YIELD - FLING HERSELF - LAUGH UPROAROUSLY - AT HER LOVER - LOVER - LOVER </span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20317 clickable" onclick="matchApp('app-N20317');"><span class="reading va2">WITH BEND HEAD  <del class="rend-overstrike">FROM </del> BENEATH LASHES FAIR AS BLEACHED <del class="rend-overstrike">FLAT</del><ins>WHEAT STRAW</ins> FROM EYES MIST BLUE DISTANT &amp; FACE - AS IMPENETRABLE MYSTERIOUS - <del class="rend-overstrike">EVER</del> NOSTALGIA WAKING HE SLANTED ONE SLOW WITHINER LOOK AT HER AS A FINE STEELLANCET BY THE WILL TO <del class="rend-overstrike">STAR</del><ins class="place-below">PILORE </ins> FOR SAKE <del class="rend-overstrike">TO</del>OF DRAWING BLOOD AND HURT HE SAID - POINTEDLY IT PROBABLY WAS AN ARTIST.</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20335 clickable" onclick="matchApp('app-N20335');"><span class="reading va2">OH. BUT HE HAD EYES LIKE THE SUN.</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N2033A clickable" onclick="matchApp('app-N2033A');"><span class="reading va2">HAD HE? COULD<del class="rend-overstrike">NT</del> HE PAY YOUR FURS AND HATS -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20343 clickable" onclick="matchApp('app-N20343');"><span class="reading va2">OH FELIX. YOU DON'T EVEN LOOK AT ME - WHEN I CAME HOME - I WANTED TO TELL YOU THIS - TO - TO - MAKE YOU NOTICE -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20348 clickable" onclick="matchApp('app-N20348');"><span class="reading va2">I NOTICE - BUT YOU DON'T NOTICE - ME - ALL AT ITS TIME - I AM BUSY EARNING YOUR FRIPPERY - YOU NEVER COME DOWN TO TACKS  - <del class="rend-overstrike">YO</del> ALWAYS WANT SUNDAY</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20351 clickable" onclick="matchApp('app-N20351');"><span class="reading va2"><ins>IT IS ALWAYS SUNDAY - IT MUST BE - HOW SHALL I LIVE -</ins> IT HAS BEEN - FELIX - BEFORE - REMEMBER - WHY NOT NOW -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N20358 clickable" onclick="matchApp('app-N20358');"><span class="reading va2">FREE ME - WHAT SHALL I DO - NOW - HERE -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N2035D clickable" onclick="matchApp('app-N2035D');"><span class="reading va2">I HAVEN'T TIME - DO SOMETHING! - IN THE EVENING -<ins class="place-margin">I'LL SEE WHAT I'LL DO </ins> HE POUNDED AWAY - HAD POUNDED ALL THROUGH THIS <span class="choice">CONVERATION<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>CONVERSATION</div>
+</div>
+</span> -  - <del class="rend-overstrike">THEY </del><span class="choice">BOOTH <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>BOTH </div>
+</div>
+</span><ins>EXPERTLY</ins> WERE USED TO TALK TO THE CLIKC CLICK CLICK - SHE EVEN HAD <span class="choice">REVELD<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>REVELED</div>
+</div>
+</span> IN THIS FACT - ENHANCING HIS UNCANNY MIND BALANCE SKILL - AS HE HAD PAINSTAKINGLY INSTRUCTED HER - TO</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N2037D clickable" onclick="matchApp('app-N2037D');"><span class="reading va2">SHE STOOD AT A MUTE - <del class="rend-overstrike">DE</del> AT A LOSS - DEFEATED <del class="rend-overstrike">AS </del> SHE NEVER WAS QUICK IN ARGUMENT - <span class="choice">WICH<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>WHICH </div>
+</div>
+</span>  DISDAINFULL HE TOOK SUPERIOR MASCULINE ADVANTAGE OF BECAUSE IT MADE HIM LORD <ins>SIMULTANEOUSL </ins><del class="rend-overstrike">AND </del> HURT HIS PRIDE AS HER POSSESOR - BUT SHE WAS PERMEATED WITH DUMB REBELLION. IN HER SYSTEM - <ins>SHE KNEW </ins> HE WAS FLIPPING - AT A TERRIBLE LOSS HIMSELF - BRAIN ZZLING HER EVADING WITH SUPERIOR FLIPP - WHAT WAS THE MATTER - SHE CAME FOR GREAT SUNNY SACRIFICIAL LOVE - NOT FOR <ins>THIS </ins><del class="rend-overstrike">PALTRY </del> QUARREL - A MAN WINS <span class="choice">QUARRELD<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>QUARRELED</div>
+</div>
+</span> - SMALL - TRIFLING HUGH! AND THIS MAN OF ALL MAN - SELF POSSESSED - <del class="rend-overstrike">COLD </del> FIERCELY ICELY BRILLIANT - EVEN <del class="rend-overstrike"><span class="unclear">??</span></del> HIS TALL STEELY SLENDER STATURE WITH SMALL SHINY HEAD <span class="apparatus app-N203AD clickable" onclick="matchApp('app-N203AD');"><span class="rdgGrp">LITHE<div class="altRdg">
+<ins>DETERMINED </ins>
+</div>
+</span></span> FEATURES - HOW COULD HE <del class="rend-overstrike">BE SO </del><ins>DEVOTE </ins><span class="apparatus app-N203BA clickable" onclick="matchApp('app-N203BA');"><span class="rdgGrp">A MALE <div class="altRdg">
+<ins class="place-below">HIMSELF </ins>
+</div>
+</span></span><del class="rend-overstrike">COMMON</del><ins class="place-below">TO SUCH UNSPEAKABLE </ins> EVERY DAY COMMONESS - WHEN SHE CAME WITH FESTIVE BANTER <ins class="place-inline">LIKE STALE BILE</ins> A HORRID <del class="rend-overstrike">SLOW</del> REPULSION SURGED LIKE DILUTED <del class="rend-overstrike">SLOWLY </del><ins class="place-below">BLOOD </ins><del class="rend-overstrike">THROUGH </del> SLOWLY <del class="rend-overstrike">ALL</del> THROUGH HER <del class="rend-overstrike">BLO</del> SYSTEM - MAKING HER DIZZY WITH NOWHERES. WHERE WAS SHE  - HE - WHAT WAS IT? THOSE <ins>OBVIOUS </ins> EYES WERE NOTHING TO HER - SHE HATED THEM - THEY WERE TOO <del class="rend-overstrike">SOLICITOUS</del> - <ins class="place-below">SNOWY </ins> - EXPRESSIVE - VAGRANTLY - SHAMELESS OF EXPOSURE - LIKE PROSTITUTES - SOLICITING - TO BE SOLICITED -</span></span>
+</div>
+<div class="paragraph">
+<span class="apparatus app-N203F0 clickable" onclick="matchApp('app-N203F0');"><span class="reading va2">SHE WAS SMITTEN WITH - <ins>BLOOD </ins> THRALL TO THIS <ins class="place-below">MANS</ins> EYES <ins>SITTING </ins><span class="apparatus app-N203FD clickable" onclick="matchApp('app-N203FD');"><span class="rdgGrp">ON ICE FILMED <div class="altRdg">
+<ins class="place-below">THE TYPEWRITER </ins>
+</div>
+</span></span> REMOTE <ins class="place-inline">WITH </ins><del class="rend-overstrike">SLIGHTLY </del><ins>MISTY </ins> IMPUDENT <del class="rend-overstrike">STAR</del><ins class="place-below">RIGID </ins> BULGING STARE - <del class="rend-overstrike">WHOSE </del><ins class="place-below">WITH </ins><span class="choice">DEPHTS <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>DEPTHS </div>
+</div>
+</span><del class="rend-overstrike">WERE </del><ins class="place-below">EVER</ins> UNFATHOMED - CHASTE - COOLY <span class="choice">AFFECTIONAT <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>AFFECTIONATE </div>
+</div>
+</span><span class="choice">RETECEND <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>RETICENT </div>
+</div>
+</span> - FIERCELY DETERMINED WITH COLD PASSION - NARROWING TO POINT OF FOIL - WHEN HE <span class="choice">GROW<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>GROWS</div>
+</div>
+</span> LIVID WITH SUPPRESSED RAGE - <span class="choice">WICH<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>WHICH</div>
+</div>
+</span> SELDOM <ins>EVER </ins><span class="choice">OCCURED<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>OCCURRED </div>
+</div>
+</span> - <span class="choice">WICH<div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>WHICH</div>
+</div>
+</span> EVER MADE HER - VOLUPTUOUS TO BE STABBED </span></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="notesPanel" class="panel" style="display: none;">
+<div class="panelBanner">
+<span onclick="hideNotesPanel();" class="closePanel">X</span>
+            Textual Notes
+         </div>
+<div class="noteContent" id="noNotesFound">
+            Sorry, but there are no notes associated with
+            any currently displayed witness.
+         </div>
+</div>
+<br class="clear">
+</div>
+<div id="panel_imageViewer" class="viewerRoot">
+<div id="handle_imageViewer" class="viewerHandle" title="Click to drag panel.">
+<span id="title_imageViewer" class="viewerHandleLt">Image Viewer</span><span onclick="return hidePanel('imageViewer');" class="viewerHandleRt">X</span>
+</div>
+<div id="content_imageViewer" class="viewerContent"></div>
+</div>
+</body>
+</html>
+<div hidden=true id="miradorDiv"/>
+
+<script type="text/javascript" src="../webfiles/public-common/js/digital/mirador-transition.js"></script>

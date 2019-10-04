@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+      <title>Versioning Machine alterations &ndash; In Transition: Selected Poems by the Baroness Elsa von Freytag-Loringhoven</title>
+      <link rel="stylesheet" type="text/css" href="../webfiles/public-common/css/digital/transition/style.css">
+      <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+   </head>
+   <body>
+      <div class="header">
+   <a href="https://www.lib.umd.edu">
+      <img class="umlib" alt="University of Maryland Libraries" src="../webfiles/public-common/images/digital/collections/trn/umlib.gif" />
+   </a>
+   <a href="https://digital.lib.umd.edu/">
+      <img class="digicoll" alt="Digital Collections" src="../webfiles/public-common/images/digital/dc.png"  />
+   </a>
+</div>
+<div class="main">
+         <div class="mainbody">
+            <h1>In&nbsp;Transition:&nbsp;Selected&nbsp;Poems<br>by&nbsp;the&nbsp;Baroness&nbsp;Elsa&nbsp;von&nbsp;Freytag-Loringhoven</h1>
+            <div class="nav siteLinks">
+   <a href="https://digital.lib.umd.edu/transition">Main page</a> |
+   <a href="introduction.html">Introduction</a> |
+   <a href="source.html">About the project</a> |
+   <a href="https://www.lib.umd.edu/digital/contact/digital-feedback">Contacts</a>
+</div>
+<h2>Versioning Machine alterations</h2>
+            <p>The changes made to the <a href="http://v-machine.org/">Versioning Machine</a>
+            (Version 4.0) in this iteration are best exemplified with examples taken from the
+            poem "Xray" by Elsa von Freytag-Loringhoven. Essentially, these alterations fall
+            into two categories:</p>
+            <ol>
+               <li><strong>Line comparison</strong><br>While <em>VM</em> 4.0 allows for
+               comparison within the same line across versions, this iteration allows the
+               user to compare changes between disparate lines of a poem. For example, a
+               word, phrase, or complete line that appears in the first line of one version
+               may be compared with the same structure in a subsequent line of a different
+               version (for an example, see "Poeple [sic] polish" in one version of "Xray"
+               versus "Cosmic hands polish" in another). Alternatively, if a phrase
+               comprises one line in the first version and is broken across three lines of
+               the next version, all parts of the phrase, in multiple lines, may be
+               highlighted across both versions. This facility is accomplished by using the
+               'loc' attribute in the &lt;app&gt; tag to associate &lt;app&gt; elements
+               across and within versions of a text.</li>
+               <li><strong>Textual Alternatives</strong><br>The second change incorporated
+               in this version of the <span class="underline">Versioning Machine</span> facilitates an editor's
+               ability to classify and visualize textual alternatives. For instance, in the
+               third version of "Xray," readings ("Suns [sic] radioinfused soil," "Radio's
+               soil secret," "Radio's sun message," and "Radio's sunimpregnated soil") may be
+               understood as alternative readings for the same point in a line of text
+               because of their spatial arrangement on the manuscript page, all constellating
+               around the word "soil." This is accomplished wihtin the XML since the editor
+               is able to express alternative readings for a given phrase or word by using
+               the &lt;rdgGrp&gt; element to group nested "children" &lt;rdg&gt; elements
+               within a given "parent" &lt;rdg&gt; element for a particular witness. In this
+               way, the &lt;rdgGrp&gt; element is rendered by the presence of a dotted line
+               under the phrase "Suns [sic] radioinfused". This line indicates that a
+               mouseover will reveal the alternative readings.</li>
+            </ol>
+         </div>
+         <br style="clear: both;">
+         <div class="footer">
+            <div class="nav siteLinks">
+   <a href="https://digital.lib.umd.edu/transition">Main page</a> |
+   <a href="introduction.html">Introduction</a> |
+   <a href="source.html">About the project</a> |
+   <a href="https://www.lib.umd.edu/digital/contact/digital-feedback">Contacts</a>
+</div>
+</div>
+      </div>
+      <div class="footer dcrFooter">
+   This is a project of
+   <a href="https://digital.lib.umd.edu">Digital Collections</a> &gt;
+   <a href="https://www.lib.umd.edu/">University Libraries</a> &gt;
+   <a href="https://www.umd.edu/">University of Maryland</a> |  
+   <a href="https://umd.edu/web-accessibility" target="_blank">Web Accessibility</a>
+</div>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4965595-1']);
+_gaq.push(['_trackPageview']);
+
+(function()
+{ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); }
+
+)();
+
+</script></body>
+</html>

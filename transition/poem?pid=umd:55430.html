@@ -1,0 +1,633 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:search="http://www.fedora.info/definitions/1/0/types/" xmlns:collection="http://www.itd.umd.edu/fedora/collection" xmlns:doInfo="http://www.itd.umd.edu/fedora/doInfo" xmlns:tei="http://www.tei-c.org/ns/1.0" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>A Dozen Cocktails Please -- The Versioning Machine 4.0</title>
+<link type="text/css" rel="stylesheet" href="../webfiles/public-common/css/digital/transition/vmachine.css">
+<!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="../includes/css/transition/vmachine_ie7.css">
+         <![endif]-->
+<script type="text/javascript" src="../webfiles/public-common/js/digital/transition.js"></script><script type="text/javascript">
+      var witnesses = new Array();
+      
+         witnesses["va1"] = "all;va1";
+      
+         witnesses["va2"] = "all;va2";
+      
+         witnesses["va3"] = "all;va3";
+      
+      var maxPanels = 3;
+   </script>
+</head>
+<body onload="init();">
+<div id="mainBanner">
+<div id="brandingLogo">
+<a href="https://www.lib.umd.edu/"><img src="../webfiles/public-common/images/digital/collections/trn/vm-images/libraries2.png" alt="University of Maryland Libraries" id="logo1"></a><a href="index.html"><img src="../webfiles/public-common/images/digital/collections/trn/vm-images/dc2.png" alt="Digital Collections" id="logo2"></a>
+</div>
+<div id="headline">
+<h1 onclick="toggleBiblio();">A Dozen Cocktails Please</h1>
+<span class="versionCount"> has 3 versions</span>
+</div>
+<!-- <img alt="" src="https://digital.lib.umd.edu/images/digital/collections/transition/vm-images/topedge.gif" id="topEdge"><div id="mainControls"> -->
+<input onclick="openPanel();" value="New Version" id="newPanel" type="button">
+         &bull;
+         <input onclick="toggleBiblio();" value="Bibliographic Info" id="bibToggle" type="button">
+         &bull;
+         <input onclick="toggleCrit();" value="Critical Introduction" id="critToggle" type="button">
+         &bull;
+         <span class="lineNumbersToggle"><label for="toggleLineNumbers">Line Numbers:</label><input onclick="toggleLineNumbers(this.checked);" id="toggleLineNumbers" type="checkbox">
+            &bull;
+         </span><select id="notesMenu" onchange="notesFormat(this.value);"><option value="popup" selected>Popup notes</option><option value="inline">Inline notes</option><option value="none">
+                     Hide notes
+                  </option></select>
+         &bull;
+         Index to <i><a href="https://digital.lib.umd.edu/transition">In Transition</a></i> | <a target="_blank" href="https://umd.edu/web-accessibility">Web Accessibility</a>
+</div>
+</div>
+<div id="mssArea">
+<div id="bibPanel" class="panel">
+<div class="panelBanner">
+<span onclick="toggleBiblio()" class="closePanel">X</span>
+            Bibliographic Information
+         </div>
+<div class="bibContent">
+<h2>A Dozen Cocktails Please</h2>
+<h3>
+                  by Baroness Elsa von Freytag-Loringhoven</h3>
+<h4>Original Source</h4>
+<p>Encoded documents and images are derived from manuscripts in the <a href="http://www.lib.umd.edu/litmss/holdings.html#evfl" class="link">Papers of Elsa von Freytag-Loringhoven</a> in Special Collections at the University of Maryland, College Park, Libraries. In addition, individual pages or leaves of manuscripts are identified by the corresponding reel and frame numbers of the microfilm edition of the Freytag-Lorinhoven Papers.</p>
+<h4>Witness List</h4>
+<ul>
+<li>First: Reel 3, Frames 760 and 761
+						</li>
+<li>Second: Reel 3, Frames 762, 763, and 764
+						</li>
+<li>Third: Reel 3, Frames 765 and 766 
+						</li>
+</ul>
+<h4>Textual Notes</h4>
+<div class="note">Drafts of this poem occupy series	3, box 1, folder 57 and Reel 3, Frame numbers 760 to 766. The poem was
+                    written between 1923 and 1927.</div>
+<h4>Electronic Edition Information:</h4>
+<h5>Responsibility Statement:</h5>
+<ul>
+<li>Text Encoding by Tanya Clement</li>
+<li>Proofing and Additional Encoding by Tanya Clement</li>
+<li>TIFF images scanned at 600 dpi from manuscript pages and JPEGS derived byTanya Clement</li>
+</ul>
+<h5>Publication Details:</h5>
+<p>Published by Tanya Clement.</p>Office of Digital Collections and Research (DCR), University of Maryland, College Park, MD 20742<p>Baroness Elsa von Freytag-Loringhoven's poetry is printed here with the support of the University of Maryland Libraries. Permission to reproduce images of
+						Freytag-Loringhoven's manuscripts has also been generously granted by the libraries.</p>
+<p>This poem and manuscript drafts are available from this site for
+						demonstration purposes only. Though the intellectual property of Elsa von Freytag-Loringhoven is in the public domain, all annotations and editorial commentary are copyrighted. They may not be reproduced without explicit
+						permission from the copyright holder. For copyright information, please
+						contact Tanya Clement.</p>
+<h4>Encoding Principles</h4>
+<p>DTD constructed from TEI P5 poetry base with tagsets for parallel segmentation, linking, figures, analysis, transcr, textcrit.</p>
+<p>Line breaks have not been preserved in prose sections in order to facilitate parallel segmentation procedures.</p>
+</div>
+</div>
+<div id="critPanel" class="panel">
+<div class="panelBanner">
+<span onclick="toggleCrit()" class="closePanel">X</span>
+            Critical Introduction
+         </div>
+<div class="critContent">
+<h4>Critical Introduction</h4>
+<p>Though unpublished during her lifetime, "A Dozen Cocktails&mdash;Please" was published in <span class="hi rend-italic">Sulfur</span> 6 (1983) as one poem in a set of eleven poems for which editor Eliot Weinberger wrote in the introduction, "with Barnes' death at 90 this year, the Baroness' work will finally see print" (150). For copyright reasons, this additional version of the poem is not included here. </p>
+<p>This poem is playful, making ribald reference to condoms as "dandy celluloid tubes . . . tinted diabolically as a baboon's hind-complexion" and "the vibrator-- -- --   /Coy flappertoy!" She also includes a section with a thinly-veiled praise for her heterosexuality:</p>
+<div class="lg">
+<div class="line lineN20060" onclick="matchLine('lineN20060');">
+<div class="emptynumber">&nbsp;</div> . . . I don't hanker after Billyboys-- but I am entitled </div>
+<div class="line lineN20062" onclick="matchLine('lineN20062');">
+<div class="emptynumber">&nbsp;</div>          To be deeply shocked. </div>
+<div class="line lineN20064" onclick="matchLine('lineN20064');">
+<div class="emptynumber">&nbsp;</div>So are we-- but you fill the hiatus.</div>
+<div class="line lineN20066" onclick="matchLine('lineN20066');">
+<div class="emptynumber">&nbsp;</div>Dear-- I ain't queer-- I need it straight -- --</div>
+<div class="line lineN20068" onclick="matchLine('lineN20068');">
+<div class="emptynumber">&nbsp;</div>A dozen cocktails-- please-- -- -- --</div>
+</div>
+<p>She plays with the reader as she plays with herself: sexual freedom makes sex an arena of play and self-empowerment.  The play here on "deeply shocked" both indicates an offense of social conscience and, especially coupled with the next line "but you fill the hiatus," a sexual penetration. She used the attention generated by this "obscene" language to make pointed social commentaries. In "A Dozen Cocktails&mdash;Please," for example, she criticizes what she perceives as American social inferiorities by criticizing its bathroom habits. At a phase in her career when she argues for European artistic and aristocratic superiority, she denigrates the "uppity" Americans who, while socially barbarous, have advanced and expensive bathroom amenities:</p>
+<div class="lg">
+<div class="line lineN2006D" onclick="matchLine('lineN2006D');">
+<div class="emptynumber">&nbsp;</div>What's the dread </div>
+<div class="line lineN2006F" onclick="matchLine('lineN2006F');">
+<div class="emptynumber">&nbsp;</div>  Matter with the up-to-date-American- </div>
+<div class="line lineN20071" onclick="matchLine('lineN20071');">
+<div class="emptynumber">&nbsp;</div>Home-comforts? Bum insufficient for the</div>
+<div class="line lineN20073" onclick="matchLine('lineN20073');">
+<div class="emptynumber">&nbsp;</div>Should-be wellgroomed upsy!</div>
+</div>
+<p> Liberty is restrictive, however; it demands a level of censorship to which the Baroness (in the words of Pound's Cantos) was "non-acquiescent." It is her non-acquiescence, her inclination to be too obscene, too critical, which left her without a readership at The Little Review. Especially as a woman, the Baroness's sense of freedom of expression, which makes her work valuable posthumously helped to situate her on the fringe in her time. 
+					</p>
+<p>One technique that demanded an active audience was "optophonetic" poetry, which provided a written form for the very popular "sound poetry" that Dadaists Tzar, Huelsenbeck, Janco and others performed at the Cabaret Voltaire. In his desire to abstract language, Dadaist Raol Haussman created notations that used typographic variations to signal certain sound effects, essentially designing a system much like musical notation. Kurt Schwitters followed behind, creating what he called Merz or a multi-genre, multi-media poem that incorporated optophonetics with pictures, nails, and even sentences, often cut from the newspaper or a pamphlet. The Baroness, who was much enraged by Schwitters' rising popularity with The Little Review during the years of her decline from their favor,  incorporates optophonetics in her own work, more in the Schwitters fashion. In her manuscripts, there is evidence that she experimented with using optophonetics as one element among many that render meaning in a poem. In "A Dozen Cocktails Please," she writes: "Serpentine aircurrents -- -- --/Hhhhhphssssssss! The very word penetrates." The word, with its low-slung "p" in the middle and its swerving queue of "s" evokes the penetrating snake that it mimics. </p>
+</div>
+</div>
+<div id="manuscripts">
+<div class="panel mssPanel">
+<div class="panelBanner">
+<span onclick="closePanel(this.parentNode.parentNode)" class="closePanel">X</span>Witness <select onchange="changeWitness(this.value,this.parentNode.parentNode);" class="witnessMenu"><option selected value="va1">1: First</option><option value="va2">2: Second </option><option value="va3">3: Third </option></select>
+</div>
+<div class="mssContent">
+<div class="mssImages">
+<img src="../webfiles/public-common/images/digital/55430/thumb_50597.jpg" style="max-height:60px;max-width:50px;" class="imageLink va1" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50597.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50583.jpg" style="max-height:60px;max-width:50px;" class="imageLink va1" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50583.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50586.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50586.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50587.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50587.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50588.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50588.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50590.jpg" style="max-height:60px;max-width:50px;" class="imageLink va3" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50590.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50591.jpg" style="max-height:60px;max-width:50px;" class="imageLink va3" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50591.jpg', '_blank');"></div>
+<div class="div1">
+<div class="head rend-underline">
+<span class="apparatus app-N200AC clickable" onclick="matchApp('app-N200AC');"><span class="reading va1 va2">A DOZEN COCKTAILS </span><span class="reading va2">-</span><span class="reading va1 va2">PLEASE </span><span class="reading va1">. </span></span>
+</div>
+<div class="lg">
+<div class="line lineN200BA">
+<div class="linenumber" style="visibility: hidden;">1</div>
+<span class="apparatus loc-a1a" onclick="matchApp(this.className);"><span class="reading all">NO SPINSTER LOLLYPOPP FOR ME </span><span class="reading va1 va2">- </span><span class="reading va1">"</span></span><span class="apparatus loc-a1b" onclick="matchApp(this.className);"><span class="reading all">YES - WE HAVE</span></span>
+</div>
+<div class="line lineN200CC">
+<div class="linenumber" style="visibility: hidden;">2</div>
+<span class="apparatus loc-a1c" onclick="matchApp(this.className);"><span class="reading all">NO BANANAS</span><span class="reading va1">"</span><span class="reading all"><span class="noteicon">c<div class="note">A reference to Frank Silver and Irving Cohn's Tin Pan Alley jazz smash of 1923, "Yes! We Have No Bananas"; for more disucssion of the use of this song both in "A Dozen Cocktails" an in other modernist literature, see Ryan Jerving's article "Jazz Language and Ethnic Novelty." <span class="hi rend-italic">Modernism/modernity</span> (2003): 239-268.
+                	</div>
+</span></span></span><span class="apparatus loc-a1d" onclick="matchApp(this.className);"><span class="reading all"> I GOT LUSTING PALATE </span></span><span class="apparatus loc-a1e" onclick="matchApp(this.className);"><span class="reading va1 va2">- </span></span><span class="apparatus loc-a1f" onclick="matchApp(this.className);"><span class="reading all"> I </span></span><span class="apparatus loc-a1" onclick="matchApp(this.className);"><span class="reading va1 va3">ALWAYS</span></span>
+</div>
+<div class="line lineN200F5">
+<div class="linenumber" style="visibility: hidden;">3</div>
+<span class="apparatus loc-a1" onclick="matchApp(this.className);"><span class="reading va2">ALWAYS </span></span><span class="apparatus loc-a2" onclick="matchApp(this.className);"><span class="reading all">EAT THEM </span><span class="reading va1 va2">- - - - -</span><span class="reading va2">-  </span></span>
+</div>
+<div class="line lineN20107" onclick="matchLine('lineN20107');">
+<div class="linenumber" style="visibility: hidden;">4</div>
+<span class="apparatus" onclick="matchApp('app-N20109');"><span class="reading va1 va3">THEY</span><span class="reading va2"><span class="choice">TEY <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>THEY </div>
+</div>
+</span></span><span class="reading all"> HAVE DANDY CELLULOID TUBES </span><span class="reading va1 va2">- </span><span class="reading all"> ALL SIZES </span><span class="reading va1 va2">- </span></span>
+</div>
+<div class="line lineN20120" onclick="matchLine('lineN20120');">
+<div class="linenumber" style="visibility: hidden;">5</div>
+<span class="apparatus" onclick="matchApp('app-N20122');"><span class="reading va3"><del>DI</del></span><span class="reading all">TINTED DIABOLICALLY </span><span class="reading va1 va2">LIKE </span><span class="reading va3">AS </span></span>A <span class="choice">BAMBOON'S <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>BABOON'S </div>
+</div>
+</span>
+</div>
+<div class="line lineN20136" onclick="matchLine('lineN20136');">
+<div class="linenumber" style="visibility: hidden;">6</div>HIND COMPLEXION .</div>
+<div class="line lineN20139" onclick="matchLine('lineN20139');">
+<div class="linenumber" style="visibility: hidden;">7</div>
+<span class="apparatus" onclick="matchApp('app-N2013B');"><span class="reading all">A MAN</span><span class="reading va1 va2">'</span><span class="reading all">S A </span><span class="reading va1 va2">- </span><span class="reading va1"> - - </span></span>
+</div>
+<div class="line lineN2014B">
+<div class="linenumber" style="visibility: hidden;">8</div>
+<span class="apparatus loc-8a" onclick="matchApp(this.className);"><span class="reading all">PIFFLE</span><span class="reading va1 va2">! </span><span class="reading all"> WILL 0</span><span class="reading va1">' </span><span class="reading all"> TH</span><span class="reading va1">' </span><span class="reading all"> WHISP! WHAT</span><span class="reading va1 va3"> IS </span><span class="reading va2">'S </span><span class="reading all">THE </span></span><span class="apparatus loc-8d" onclick="matchApp(this.className);"><span class="reading va1 va2">DREAD </span></span>
+</div>
+<div class="line lineN20172">
+<div class="linenumber" style="visibility: hidden;">9</div>
+<span class="apparatus loc-8d" onclick="matchApp(this.className);"><span class="reading va3">DREAD </span></span><span class="apparatus loc-9a" onclick="matchApp(this.className);"><span class="reading all">MATTER WITH THE UP </span><span class="reading va1 va2">- </span><span class="reading all">TO </span><span class="reading va1 va2">- </span><span class="reading all">DATE </span><span class="reading va2">- </span><span class="reading va1 va2">AMERICAN</span><span class="reading va2">- </span></span>
+</div>
+<div class="line lineN20193" onclick="matchLine('lineN20193');">
+<div class="linenumber" style="visibility: hidden;">10</div>
+<span class="apparatus" onclick="matchApp('app-N20195');"><span class="reading va3">AMERICAN </span><span class="reading all">HOME </span><span class="reading va2">- </span><span class="reading all">COMFORTS</span><span class="reading va1 va2">'?</span><span class="reading all"> BUM INSUFFICIENT </span><span class="reading va1 va2">FOR THE</span></span>
+</div>
+<div class="line lineN201AB" onclick="matchLine('lineN201AB');">
+<div class="linenumber" style="visibility: hidden;">11</div>
+<span class="apparatus" onclick="matchApp('app-N201AD');"><span class="reading va3">FOR THE </span><span class="reading all"> SHOULD </span><span class="reading va1 va2"> -</span><span class="reading all"> BE WELL GROOMED UPSY</span><span class="reading va1">. </span><span class="reading va2">!</span></span>
+</div>
+<div class="line lineN201C0" onclick="matchLine('lineN201C0');">
+<div class="linenumber" style="visibility: hidden;">12</div>
+<span class="apparatus" onclick="matchApp('app-N201C2');"><span class="reading all">THERE'S THE VIBRATOR </span><span class="reading va1 va2">- - - </span></span>
+</div>
+<div class="line lineN201C9" onclick="matchLine('lineN201C9');">
+<div class="linenumber" style="visibility: hidden;">13</div>
+<span class="apparatus" onclick="matchApp('app-N201CB');"><span class="reading all">COY FLAPPERTOY</span><span class="reading va1 va2">! </span><span class="reading va3">. </span><span class="reading all">I</span><span class="reading va1 va2">'</span><span class="reading va3">AM</span><span class="reading all">M ADULT CITIZEN WITH </span></span>
+</div>
+<div class="line lineN201E1">
+<div class="linenumber" style="visibility: hidden;">14</div>
+<span class="apparatus loc-14a" onclick="matchApp(this.className);"><span class="reading all">VOTE</span><span class="reading va1 va2"> -</span><span class="reading va3">. </span><span class="reading all">I DEMAND </span><span class="reading va1 va3">FULL </span><span class="reading va2">MY UNSTINTED </span><span class="reading all"> SHARE </span></span><span class="apparatus loc-14b" onclick="matchApp(this.className);"><span class="reading va1 va3">IN ROOF EDEN </span></span>
+</div>
+<div class="line lineN201FF">
+<div class="linenumber" style="visibility: hidden;">15</div>
+<span class="apparatus loc-14b" onclick="matchApp(this.className);"><span class="reading va2">IN ROOF EDEN - </span></span><span class="apparatus loc-15a" onclick="matchApp(this.className);"><span class="reading all">WITCH SABBATH OF OUR BABYLONIAN OBELISK. </span></span>
+</div>
+<div class="line lineN2020B" onclick="matchLine('lineN2020B');">
+<div class="linenumber" style="visibility: hidden;">16</div>WHAT'S THE RADIO FOR - IF YOU PLEASE<span class="apparatus" onclick="matchApp('app-N2020E');"><span class="reading va1 va2">?</span><span class="reading va3">. </span></span>
+</div>
+<div class="line lineN20215" onclick="matchLine('lineN20215');">
+<div class="linenumber" style="visibility: hidden;">17</div>
+<span class="apparatus" onclick="matchApp('app-N20217');"><span class="reading va1 va2">"</span><span class="reading all">EVE'S DART PRICKS SNOOKUMS UPON WIREFENCE</span><span class="reading va1 va2">"</span></span>
+</div>
+<div class="line lineN20221" onclick="matchLine('lineN20221');">
+<div class="linenumber" style="visibility: hidden;">18</div>
+<span class="apparatus" onclick="matchApp('app-N20223');"><span class="reading va1 va2">"</span><span class="reading all">AN APPLE A DAY</span><span class="reading va1 va2"> - - -"</span></span>
+</div>
+<div class="line lineN2022D" onclick="matchLine('lineN2022D');">
+<div class="linenumber" style="visibility: hidden;">19</div>
+<span class="apparatus" onclick="matchApp('app-N2022F');"><span class="reading all">IT'LL COME </span><span class="reading va2">- </span></span>
+</div>
+<div class="line lineN20236" onclick="matchLine('lineN20236');">
+<div class="linenumber" style="visibility: hidden;">20</div>HA<span class="apparatus" onclick="matchApp('app-N20239');"><span class="reading va2 va3">!</span><span class="reading all">WHEN</span><span class="reading va1">? </span><span class="reading va2">. </span><span class="reading va3">! </span><span class="reading all">I</span><span class="reading va1 va2"> AM </span><span class="reading va3">'M </span><span class="reading all">NO TONGUE SWALLOWING </span><span class="reading va1"><ins>YOGI</ins><del>YOGI</del></span><span class="reading va2 va3">YOGI</span></span>
+</div>
+<div class="line lineN2025E" onclick="matchLine('lineN2025E');">
+<div class="linenumber" style="visibility: hidden;">21</div>
+<span class="apparatus" onclick="matchApp('app-N20260');"><span class="reading all">PROGRESS IS RAVISHING</span><span class="reading va1">. </span><span class="reading va2">- </span></span>
+</div>
+<div class="line lineN2026A" onclick="matchLine('lineN2026A');">
+<div class="linenumber" style="visibility: hidden;">22</div>
+<span class="apparatus" onclick="matchApp('app-N2026C');"><span class="reading all">IT DOES</span><span class="reading va1 va2">'</span></span>NT <span class="apparatus" onclick="matchApp('app-N20274');"><span class="reading va1 va3">ME</span><span class="reading va1">! </span><span class="reading va1">ME- </span></span>
+</div>
+<div class="line lineN20281" onclick="matchLine('lineN20281');">
+<div class="linenumber" style="visibility: hidden;">23</div>
+<span class="apparatus" onclick="matchApp('app-N20283');"><span class="reading all">NUDGE IT </span><span class="reading va1 va2">-</span></span>
+</div>
+<div class="line lineN2028A">
+<div class="linenumber" style="visibility: hidden;">24</div>
+<span class="apparatus loc-a24" onclick="matchApp(this.className);"><span class="reading va1 va3">PUSH </span></span><span class="apparatus loc-a24b" onclick="matchApp(this.className);"><span class="reading va2">KICK </span></span>IT <span class="apparatus loc-a24b" onclick="matchApp(this.className);"><span class="reading va1 va2">-</span></span>
+</div>
+<div class="line lineN2029C" onclick="matchLine('lineN2029C');">
+<div class="linenumber" style="visibility: hidden;">25</div>
+<span class="apparatus" onclick="matchApp('app-N2029E');"><span class="reading all">PRODD IT</span><span class="reading va1 va2">-</span></span>
+</div>
+<div class="line lineN202A5">
+<div class="linenumber" style="visibility: hidden;">26</div>
+<span class="apparatus loc-a24b" onclick="matchApp(this.className);"><span class="reading va1 va3">KICK </span></span><span class="apparatus loc-a24" onclick="matchApp(this.className);"><span class="reading va2">PUSH </span><span class="reading all">IT </span><span class="reading va1 va2">-</span></span>
+</div>
+<div class="line lineN202B7" onclick="matchLine('lineN202B7');">
+<div class="linenumber" style="visibility: hidden;">27</div>
+<span class="apparatus" onclick="matchApp('app-N202B9');"><span class="reading all">BROADCAST </span><span class="reading va1 va2">- - - - </span></span>
+</div>
+<div class="line lineN202C0" onclick="matchLine('lineN202C0');">
+<div class="linenumber" style="visibility: hidden;">28</div>
+<span class="apparatus" onclick="matchApp('app-N202C2');"><span class="reading all">THAT'S THE LIGHTNING IDEA</span><span class="reading va1 va2">!</span></span>
+</div>
+<div class="line lineN202C9" onclick="matchLine('lineN202C9');">
+<div class="linenumber" style="visibility: hidden;">29</div>
+<span class="apparatus" onclick="matchApp('app-N202CB');"><span class="reading all">S.O.S </span><span class="reading va2">NATIONAL</span><span class="reading all"> SHORTAGE OF</span><span class="reading va1 va2"> - -</span><span class="reading va1"> -  </span></span>
+</div>
+<div class="line lineN202DB" onclick="matchLine('lineN202DB');">
+<div class="linenumber" style="visibility: hidden;">30</div>
+<span class="apparatus" onclick="matchApp('app-N202DD');"><span class="reading all">WHAT</span><span class="reading va1 va2">?</span></span>
+</div>
+<div class="line lineN202E4">
+<div class="linenumber" style="visibility: hidden;">31</div>
+<span class="apparatus loc-a31a" onclick="matchApp(this.className);"><span class="reading all">HOW ARE WE GOING TO PUT IT </span></span><span class="apparatus loc-a31" onclick="matchApp(this.className);"><span class="reading va1 va2">BEFITTING </span><span class="reading va3"><del>WITHOUT</del></span></span>
+</div>
+<div class="line lineN202F4">
+<div class="linenumber" style="visibility: hidden;">32</div>
+<span class="apparatus loc-a31" onclick="matchApp(this.className);"><span class="reading va3"> BEFITTING </span></span><span class="apparatus loc-32a" onclick="matchApp(this.className);"><span class="reading all">LIFTED UPSY</span><span class="reading va1">'</span><span class="reading all">S</span><span class="reading va1 va2">?</span></span>
+</div>
+<div class="line lineN20309" onclick="matchLine('lineN20309');">
+<div class="linenumber" style="visibility: hidden;">33</div>
+<span class="apparatus" onclick="matchApp('app-N2030B');"><span class="reading all">PSH</span><span class="reading va1 va2">!</span><span class="reading all"> ANY SISSY POET HAS SUFFICIENT FREEZING </span></span>
+</div>
+<div class="line lineN20315">
+<div class="linenumber" style="visibility: hidden;">34</div>
+<span class="apparatus loc-34a" onclick="matchApp(this.className);"><span class="reading all">CHEMICALS IN HIS </span><span class="reading va1 va3">FREUDIAN </span><span class="reading va2"><ins><del>PSYCHOANALYTIC </del></ins><ins class="place-below">FREUDIAN </ins></span><span class="reading all"> ICECHEST TO </span></span><span class="apparatus loc-34" onclick="matchApp(this.className);"><span class="reading va2"><del>DAMPEN </del><ins class="place-below">SNUFF</ins> ALL </span></span>
+</div>
+<div class="line lineN20334">
+<div class="linenumber" style="visibility: hidden;">35</div>
+<span class="apparatus loc-34" onclick="matchApp(this.className);"><span class="reading va1 va3">SNUFF ALL </span></span><span class="apparatus loc-35a" onclick="matchApp(this.className);"><span class="reading all">COCKYNESS</span><span class="reading va1 va2">. </span><span class="reading all"> WE'LL HIRE ONE</span><span class="reading va1 va2">. </span></span>
+</div>
+<div class="line lineN20349" onclick="matchLine('lineN20349');">
+<div class="linenumber" style="visibility: hidden;">36</div>
+<span class="apparatus" onclick="matchApp('app-N2034B');"><span class="reading all">HELL</span><span class="reading va1 va2">!</span><span class="reading all"> NOT THAT</span><span class="reading va1 va2">! </span><span class="reading all">THAT'S THE TROUBLE</span><span class="reading va1">! </span><span class="reading va2"> - -</span></span>
+</div>
+<div class="line lineN20361" onclick="matchLine('lineN20361');">
+<div class="linenumber" style="visibility: hidden;">37</div>
+<span class="apparatus" onclick="matchApp('app-N20363');"><span class="reading all">COCK</span><span class="reading va1 va2">CROW - </span><span class="reading va3">CROW </span><span class="reading all">SILLY</span><span class="reading va1">.</span><span class="reading va2 va3">.</span></span>
+</div>
+<div class="line lineN20379" onclick="matchLine('lineN20379');">
+<div class="linenumber" style="visibility: hidden;">38</div>
+<span class="apparatus" onclick="matchApp('app-N2037B');"><span class="reading va1 va3">OH </span><span class="reading va1">- </span><span class="reading va2"><ins class="place-margin">OH </ins></span><span class="reading all">FINE</span><span class="reading va1">! </span></span>
+</div>
+<div class="line lineN2038D">
+<div class="linenumber" style="visibility: hidden;">39</div>
+<span class="apparatus loc-39a" onclick="matchApp(this.className);"><span class="reading va3"><ins><del>HANG</del></ins></span><span class="reading all">THEY </span><span class="reading va1">'</span><span class="reading all">RE IN FRANCE </span><span class="reading va1 va2">-</span><span class="reading va1 va3">AFRICA</span><span class="reading va1 va2"> THE AIR - </span><span class="reading va3"><ins>THE AIR </ins></span><span class="reading all"> ON THE </span></span><span class="apparatus loc-39" onclick="matchApp(this.className);"><span class="reading va2 va3">LINE </span><span class="reading va2">-</span><span class="reading va3">THE </span></span>
+</div>
+<div class="line lineN203BA">
+<div class="linenumber" style="visibility: hidden;">40</div>
+<span class="apparatus loc-39" onclick="matchApp(this.className);"><span class="reading va1">LINE - </span><span class="reading va1 va2">THE </span></span><span class="apparatus loc-39a" onclick="matchApp(this.className);"><span class="reading all">POLES </span></span><span class="apparatus" onclick="matchApp('app-N203C9');"><span class="reading va1 va2">- - - - - -</span><span class="reading va1"> - </span></span>
+</div>
+<div class="line lineN203D0">
+<div class="linenumber" style="visibility: hidden;">41</div>
+<span class="apparatus loc-41a" onclick="matchApp(this.className);"><span class="reading all">HAVE THEM SEND WAVES - LIKE CANDY - </span></span><span class="apparatus loc-41" onclick="matchApp(this.className);"><span class="reading va1 va3">VALENTINES -</span></span>
+</div>
+<div class="line lineN203DC">
+<div class="linenumber" style="visibility: hidden;">42</div>
+<span class="apparatus loc-41" onclick="matchApp(this.className);"><span class="reading va2">VALENTINES </span><span class="reading va1 va2">- - -</span><span class="reading va1"> - - - - -  </span></span>
+</div>
+<div class="line lineN203E9" onclick="matchLine('lineN203E9');">
+<div class="linenumber" style="visibility: hidden;">43</div>
+<span class="apparatus" onclick="matchApp('app-N203EB');"><span class="reading va1">"</span></span><span class="apparatus" onclick="matchApp('app-N203EF');"><span class="reading all">SAY IT WITH</span><span class="reading va1">"</span><span class="reading va1 va2">- - - </span></span>
+</div>
+<div class="line lineN203F9" onclick="matchLine('lineN203F9');">
+<div class="linenumber" style="visibility: hidden;">44</div>
+<span class="apparatus" onclick="matchApp('app-N203FB');"><span class="reading all">BOLTS</span><span class="reading va1">. </span><span class="reading va2">!</span></span>
+</div>
+<div class="line lineN20405" onclick="matchLine('lineN20405');">
+<div class="linenumber" style="visibility: hidden;">45</div>
+<span class="apparatus" onclick="matchApp('app-N20407');"><span class="reading va2">OH </span></span> THUNDER<span class="apparatus" onclick="matchApp('app-N2040C');"><span class="reading va1 va2">!</span></span>
+</div>
+<div class="line lineN20410" onclick="matchLine('lineN20410');">
+<div class="linenumber" style="visibility: hidden;">46</div>
+<span class="apparatus" onclick="matchApp('app-N20412');"><span class="reading all">SERPENTINE AIR CURRENTS</span><span class="reading va1 va2"> - - -</span><span class="reading va1"> -  </span></span>
+</div>
+<div class="line lineN2041C" onclick="matchLine('lineN2041C');">
+<div class="linenumber" style="visibility: hidden;">47</div>
+<span class="apparatus" onclick="matchApp('app-N2041E');"><span class="reading all">HHHH</span><span class="reading va1 va2">H</span><span class="reading va1">HHHH</span><span class="reading all">PHSSSSSS</span><span class="reading va1 va2">SS</span><span class="reading va1">SSSS</span><span class="reading va1 va2">! </span><span class="reading all"> THE VERY WORD PENETRATES</span><span class="reading va1 va2">! </span></span>
+</div>
+<div class="line lineN2043A" onclick="matchLine('lineN2043A');">
+<div class="linenumber" style="visibility: hidden;">48</div>
+<span class="apparatus" onclick="matchApp('app-N2043C');"><span class="reading all">I FEEL WHOOZY</span><span class="reading va1">!</span><span class="reading va2">.</span></span>
+</div>
+<div class="line lineN20446" onclick="matchLine('lineN20446');">
+<div class="linenumber" style="visibility: hidden;">49</div>
+<span class="apparatus" onclick="matchApp('app-N20448');"><span class="reading all">I LIKE THAT. I </span><span class="reading va1 va3">AINT </span><span class="reading va2">DONT </span><span class="reading all">HANKER</span><span class="reading va1 va3">ING </span><span class="reading all"> AFTER </span><span class="reading va3">BILLY</span></span>
+</div>
+<div class="line lineN2045E">
+<div class="linenumber" style="visibility: hidden;">50</div>
+<span class="apparatus loc-50a" onclick="matchApp(this.className);"><span class="reading va2"><del>TRUANT</del></span><span class="reading va1 va2">BILLY </span><span class="reading all">BOYS - BUT I AM ENTITLED </span></span><span class="apparatus loc-50" onclick="matchApp(this.className);"><span class="reading va1 va3"> TO BE  </span></span>
+</div>
+<div class="line lineN20471">
+<div class="linenumber" style="visibility: hidden;">51</div>
+<span class="apparatus loc-50" onclick="matchApp(this.className);"><span class="reading va2">TO BE </span><span class="reading all">DEEPLY SHOCKED.</span></span>
+</div>
+<div class="line lineN2047B" onclick="matchLine('lineN2047B');">
+<div class="linenumber" style="visibility: hidden;">52</div>
+<span class="apparatus" onclick="matchApp('app-N2047D');"><span class="reading all">SO ARE WE </span><span class="reading va1 va2">- </span><span class="reading va3">.</span><span class="reading all"> BUT YOU FILL THE </span><span class="reading va2"><del><span class="unclear"></span></del></span><span class="reading all">HIATUS. </span></span>
+</div>
+<div class="line lineN20491" onclick="matchLine('lineN20491');">
+<div class="linenumber" style="visibility: hidden;">53</div>
+<span class="apparatus" onclick="matchApp('app-N20493');"><span class="reading all">DEAR </span><span class="reading va1 va2">-</span><span class="reading all"> I AINT QUEER - I NEED IT STRAIGHT </span><span class="reading va1 va2">-</span><span class="reading va2"> - </span></span>
+</div>
+<div class="line lineN204A3" onclick="matchLine('lineN204A3');">
+<div class="linenumber" style="visibility: hidden;">54</div>
+<span class="apparatus" onclick="matchApp('app-N204A5');"><span class="reading va1 va2">-A DOZEN COCKTAILS - PLEASE</span><span class="reading va1">!</span><span class="reading va1">- - - - </span></span>
+</div>
+</div>
+<span class="apparatus app-N204B0 clickable" onclick="matchApp('app-N204B0');"><span class="reading va1">E.V.F.L </span><span class="reading va2">ELSE<br class="linebreak"> BARONESS<br class="linebreak"> V.<br class="linebreak"> FREYTAG-<br class="linebreak">LORINGHOVEN</span></span>
+</div>
+</div>
+</div>
+<div class="panel mssPanel">
+<div class="panelBanner">
+<span onclick="closePanel(this.parentNode.parentNode)" class="closePanel">X</span>Witness <select onchange="changeWitness(this.value,this.parentNode.parentNode);" class="witnessMenu"><option value="va1">1: First</option><option selected value="va2">2: Second </option><option value="va3">3: Third </option></select>
+</div>
+<div class="mssContent">
+<div class="mssImages">
+<img src="../webfiles/public-common/images/digital/55430/thumb_50597.jpg" style="max-height:60px;max-width:50px;" class="imageLink va1" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50597.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50583.jpg" style="max-height:60px;max-width:50px;" class="imageLink va1" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50583.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50586.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50586.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50587.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50587.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50588.jpg" style="max-height:60px;max-width:50px;" class="imageLink va2" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50588.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50590.jpg" style="max-height:60px;max-width:50px;" class="imageLink va3" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50590.jpg', '_blank');"><img src="../webfiles/public-common/images/digital/55430/thumb_50591.jpg" style="max-height:60px;max-width:50px;" class="imageLink va3" onclick="window.open('../webfiles/public-common/images/digital/55430/image_50591.jpg', '_blank');"></div>
+<div class="div1">
+<div class="head rend-underline">
+<span class="apparatus app-N200AC clickable" onclick="matchApp('app-N200AC');"><span class="reading va1 va2">A DOZEN COCKTAILS </span><span class="reading va2">-</span><span class="reading va1 va2">PLEASE </span><span class="reading va1">. </span></span>
+</div>
+<div class="lg">
+<div class="line lineN200BA">
+<div class="linenumber" style="visibility: hidden;">1</div>
+<span class="apparatus loc-a1a" onclick="matchApp(this.className);"><span class="reading all">NO SPINSTER LOLLYPOPP FOR ME </span><span class="reading va1 va2">- </span><span class="reading va1">"</span></span><span class="apparatus loc-a1b" onclick="matchApp(this.className);"><span class="reading all">YES - WE HAVE</span></span>
+</div>
+<div class="line lineN200CC">
+<div class="linenumber" style="visibility: hidden;">2</div>
+<span class="apparatus loc-a1c" onclick="matchApp(this.className);"><span class="reading all">NO BANANAS</span><span class="reading va1">"</span><span class="reading all"><span class="noteicon">c<div class="note">A reference to Frank Silver and Irving Cohn's Tin Pan Alley jazz smash of 1923, "Yes! We Have No Bananas"; for more disucssion of the use of this song both in "A Dozen Cocktails" an in other modernist literature, see Ryan Jerving's article "Jazz Language and Ethnic Novelty." <span class="hi rend-italic">Modernism/modernity</span> (2003): 239-268.
+                	</div>
+</span></span></span><span class="apparatus loc-a1d" onclick="matchApp(this.className);"><span class="reading all"> I GOT LUSTING PALATE </span></span><span class="apparatus loc-a1e" onclick="matchApp(this.className);"><span class="reading va1 va2">- </span></span><span class="apparatus loc-a1f" onclick="matchApp(this.className);"><span class="reading all"> I </span></span><span class="apparatus loc-a1" onclick="matchApp(this.className);"><span class="reading va1 va3">ALWAYS</span></span>
+</div>
+<div class="line lineN200F5">
+<div class="linenumber" style="visibility: hidden;">3</div>
+<span class="apparatus loc-a1" onclick="matchApp(this.className);"><span class="reading va2">ALWAYS </span></span><span class="apparatus loc-a2" onclick="matchApp(this.className);"><span class="reading all">EAT THEM </span><span class="reading va1 va2">- - - - -</span><span class="reading va2">-  </span></span>
+</div>
+<div class="line lineN20107" onclick="matchLine('lineN20107');">
+<div class="linenumber" style="visibility: hidden;">4</div>
+<span class="apparatus" onclick="matchApp('app-N20109');"><span class="reading va1 va3">THEY</span><span class="reading va2"><span class="choice">TEY <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>THEY </div>
+</div>
+</span></span><span class="reading all"> HAVE DANDY CELLULOID TUBES </span><span class="reading va1 va2">- </span><span class="reading all"> ALL SIZES </span><span class="reading va1 va2">- </span></span>
+</div>
+<div class="line lineN20120" onclick="matchLine('lineN20120');">
+<div class="linenumber" style="visibility: hidden;">5</div>
+<span class="apparatus" onclick="matchApp('app-N20122');"><span class="reading va3"><del>DI</del></span><span class="reading all">TINTED DIABOLICALLY </span><span class="reading va1 va2">LIKE </span><span class="reading va3">AS </span></span>A <span class="choice">BAMBOON'S <div class="corr">
+<div class="interior">
+<strong>Alternate spelling: </strong>BABOON'S </div>
+</div>
+</span>
+</div>
+<div class="line lineN20136" onclick="matchLine('lineN20136');">
+<div class="linenumber" style="visibility: hidden;">6</div>HIND COMPLEXION .</div>
+<div class="line lineN20139" onclick="matchLine('lineN20139');">
+<div class="linenumber" style="visibility: hidden;">7</div>
+<span class="apparatus" onclick="matchApp('app-N2013B');"><span class="reading all">A MAN</span><span class="reading va1 va2">'</span><span class="reading all">S A </span><span class="reading va1 va2">- </span><span class="reading va1"> - - </span></span>
+</div>
+<div class="line lineN2014B">
+<div class="linenumber" style="visibility: hidden;">8</div>
+<span class="apparatus loc-8a" onclick="matchApp(this.className);"><span class="reading all">PIFFLE</span><span class="reading va1 va2">! </span><span class="reading all"> WILL 0</span><span class="reading va1">' </span><span class="reading all"> TH</span><span class="reading va1">' </span><span class="reading all"> WHISP! WHAT</span><span class="reading va1 va3"> IS </span><span class="reading va2">'S </span><span class="reading all">THE </span></span><span class="apparatus loc-8d" onclick="matchApp(this.className);"><span class="reading va1 va2">DREAD </span></span>
+</div>
+<div class="line lineN20172">
+<div class="linenumber" style="visibility: hidden;">9</div>
+<span class="apparatus loc-8d" onclick="matchApp(this.className);"><span class="reading va3">DREAD </span></span><span class="apparatus loc-9a" onclick="matchApp(this.className);"><span class="reading all">MATTER WITH THE UP </span><span class="reading va1 va2">- </span><span class="reading all">TO </span><span class="reading va1 va2">- </span><span class="reading all">DATE </span><span class="reading va2">- </span><span class="reading va1 va2">AMERICAN</span><span class="reading va2">- </span></span>
+</div>
+<div class="line lineN20193" onclick="matchLine('lineN20193');">
+<div class="linenumber" style="visibility: hidden;">10</div>
+<span class="apparatus" onclick="matchApp('app-N20195');"><span class="reading va3">AMERICAN </span><span class="reading all">HOME </span><span class="reading va2">- </span><span class="reading all">COMFORTS</span><span class="reading va1 va2">'?</span><span class="reading all"> BUM INSUFFICIENT </span><span class="reading va1 va2">FOR THE</span></span>
+</div>
+<div class="line lineN201AB" onclick="matchLine('lineN201AB');">
+<div class="linenumber" style="visibility: hidden;">11</div>
+<span class="apparatus" onclick="matchApp('app-N201AD');"><span class="reading va3">FOR THE </span><span class="reading all"> SHOULD </span><span class="reading va1 va2"> -</span><span class="reading all"> BE WELL GROOMED UPSY</span><span class="reading va1">. </span><span class="reading va2">!</span></span>
+</div>
+<div class="line lineN201C0" onclick="matchLine('lineN201C0');">
+<div class="linenumber" style="visibility: hidden;">12</div>
+<span class="apparatus" onclick="matchApp('app-N201C2');"><span class="reading all">THERE'S THE VIBRATOR </span><span class="reading va1 va2">- - - </span></span>
+</div>
+<div class="line lineN201C9" onclick="matchLine('lineN201C9');">
+<div class="linenumber" style="visibility: hidden;">13</div>
+<span class="apparatus" onclick="matchApp('app-N201CB');"><span class="reading all">COY FLAPPERTOY</span><span class="reading va1 va2">! </span><span class="reading va3">. </span><span class="reading all">I</span><span class="reading va1 va2">'</span><span class="reading va3">AM</span><span class="reading all">M ADULT CITIZEN WITH </span></span>
+</div>
+<div class="line lineN201E1">
+<div class="linenumber" style="visibility: hidden;">14</div>
+<span class="apparatus loc-14a" onclick="matchApp(this.className);"><span class="reading all">VOTE</span><span class="reading va1 va2"> -</span><span class="reading va3">. </span><span class="reading all">I DEMAND </span><span class="reading va1 va3">FULL </span><span class="reading va2">MY UNSTINTED </span><span class="reading all"> SHARE </span></span><span class="apparatus loc-14b" onclick="matchApp(this.className);"><span class="reading va1 va3">IN ROOF EDEN </span></span>
+</div>
+<div class="line lineN201FF">
+<div class="linenumber" style="visibility: hidden;">15</div>
+<span class="apparatus loc-14b" onclick="matchApp(this.className);"><span class="reading va2">IN ROOF EDEN - </span></span><span class="apparatus loc-15a" onclick="matchApp(this.className);"><span class="reading all">WITCH SABBATH OF OUR BABYLONIAN OBELISK. </span></span>
+</div>
+<div class="line lineN2020B" onclick="matchLine('lineN2020B');">
+<div class="linenumber" style="visibility: hidden;">16</div>WHAT'S THE RADIO FOR - IF YOU PLEASE<span class="apparatus" onclick="matchApp('app-N2020E');"><span class="reading va1 va2">?</span><span class="reading va3">. </span></span>
+</div>
+<div class="line lineN20215" onclick="matchLine('lineN20215');">
+<div class="linenumber" style="visibility: hidden;">17</div>
+<span class="apparatus" onclick="matchApp('app-N20217');"><span class="reading va1 va2">"</span><span class="reading all">EVE'S DART PRICKS SNOOKUMS UPON WIREFENCE</span><span class="reading va1 va2">"</span></span>
+</div>
+<div class="line lineN20221" onclick="matchLine('lineN20221');">
+<div class="linenumber" style="visibility: hidden;">18</div>
+<span class="apparatus" onclick="matchApp('app-N20223');"><span class="reading va1 va2">"</span><span class="reading all">AN APPLE A DAY</span><span class="reading va1 va2"> - - -"</span></span>
+</div>
+<div class="line lineN2022D" onclick="matchLine('lineN2022D');">
+<div class="linenumber" style="visibility: hidden;">19</div>
+<span class="apparatus" onclick="matchApp('app-N2022F');"><span class="reading all">IT'LL COME </span><span class="reading va2">- </span></span>
+</div>
+<div class="line lineN20236" onclick="matchLine('lineN20236');">
+<div class="linenumber" style="visibility: hidden;">20</div>HA<span class="apparatus" onclick="matchApp('app-N20239');"><span class="reading va2 va3">!</span><span class="reading all">WHEN</span><span class="reading va1">? </span><span class="reading va2">. </span><span class="reading va3">! </span><span class="reading all">I</span><span class="reading va1 va2"> AM </span><span class="reading va3">'M </span><span class="reading all">NO TONGUE SWALLOWING </span><span class="reading va1"><ins>YOGI</ins><del>YOGI</del></span><span class="reading va2 va3">YOGI</span></span>
+</div>
+<div class="line lineN2025E" onclick="matchLine('lineN2025E');">
+<div class="linenumber" style="visibility: hidden;">21</div>
+<span class="apparatus" onclick="matchApp('app-N20260');"><span class="reading all">PROGRESS IS RAVISHING</span><span class="reading va1">. </span><span class="reading va2">- </span></span>
+</div>
+<div class="line lineN2026A" onclick="matchLine('lineN2026A');">
+<div class="linenumber" style="visibility: hidden;">22</div>
+<span class="apparatus" onclick="matchApp('app-N2026C');"><span class="reading all">IT DOES</span><span class="reading va1 va2">'</span></span>NT <span class="apparatus" onclick="matchApp('app-N20274');"><span class="reading va1 va3">ME</span><span class="reading va1">! </span><span class="reading va1">ME- </span></span>
+</div>
+<div class="line lineN20281" onclick="matchLine('lineN20281');">
+<div class="linenumber" style="visibility: hidden;">23</div>
+<span class="apparatus" onclick="matchApp('app-N20283');"><span class="reading all">NUDGE IT </span><span class="reading va1 va2">-</span></span>
+</div>
+<div class="line lineN2028A">
+<div class="linenumber" style="visibility: hidden;">24</div>
+<span class="apparatus loc-a24" onclick="matchApp(this.className);"><span class="reading va1 va3">PUSH </span></span><span class="apparatus loc-a24b" onclick="matchApp(this.className);"><span class="reading va2">KICK </span></span>IT <span class="apparatus loc-a24b" onclick="matchApp(this.className);"><span class="reading va1 va2">-</span></span>
+</div>
+<div class="line lineN2029C" onclick="matchLine('lineN2029C');">
+<div class="linenumber" style="visibility: hidden;">25</div>
+<span class="apparatus" onclick="matchApp('app-N2029E');"><span class="reading all">PRODD IT</span><span class="reading va1 va2">-</span></span>
+</div>
+<div class="line lineN202A5">
+<div class="linenumber" style="visibility: hidden;">26</div>
+<span class="apparatus loc-a24b" onclick="matchApp(this.className);"><span class="reading va1 va3">KICK </span></span><span class="apparatus loc-a24" onclick="matchApp(this.className);"><span class="reading va2">PUSH </span><span class="reading all">IT </span><span class="reading va1 va2">-</span></span>
+</div>
+<div class="line lineN202B7" onclick="matchLine('lineN202B7');">
+<div class="linenumber" style="visibility: hidden;">27</div>
+<span class="apparatus" onclick="matchApp('app-N202B9');"><span class="reading all">BROADCAST </span><span class="reading va1 va2">- - - - </span></span>
+</div>
+<div class="line lineN202C0" onclick="matchLine('lineN202C0');">
+<div class="linenumber" style="visibility: hidden;">28</div>
+<span class="apparatus" onclick="matchApp('app-N202C2');"><span class="reading all">THAT'S THE LIGHTNING IDEA</span><span class="reading va1 va2">!</span></span>
+</div>
+<div class="line lineN202C9" onclick="matchLine('lineN202C9');">
+<div class="linenumber" style="visibility: hidden;">29</div>
+<span class="apparatus" onclick="matchApp('app-N202CB');"><span class="reading all">S.O.S </span><span class="reading va2">NATIONAL</span><span class="reading all"> SHORTAGE OF</span><span class="reading va1 va2"> - -</span><span class="reading va1"> -  </span></span>
+</div>
+<div class="line lineN202DB" onclick="matchLine('lineN202DB');">
+<div class="linenumber" style="visibility: hidden;">30</div>
+<span class="apparatus" onclick="matchApp('app-N202DD');"><span class="reading all">WHAT</span><span class="reading va1 va2">?</span></span>
+</div>
+<div class="line lineN202E4">
+<div class="linenumber" style="visibility: hidden;">31</div>
+<span class="apparatus loc-a31a" onclick="matchApp(this.className);"><span class="reading all">HOW ARE WE GOING TO PUT IT </span></span><span class="apparatus loc-a31" onclick="matchApp(this.className);"><span class="reading va1 va2">BEFITTING </span><span class="reading va3"><del>WITHOUT</del></span></span>
+</div>
+<div class="line lineN202F4">
+<div class="linenumber" style="visibility: hidden;">32</div>
+<span class="apparatus loc-a31" onclick="matchApp(this.className);"><span class="reading va3"> BEFITTING </span></span><span class="apparatus loc-32a" onclick="matchApp(this.className);"><span class="reading all">LIFTED UPSY</span><span class="reading va1">'</span><span class="reading all">S</span><span class="reading va1 va2">?</span></span>
+</div>
+<div class="line lineN20309" onclick="matchLine('lineN20309');">
+<div class="linenumber" style="visibility: hidden;">33</div>
+<span class="apparatus" onclick="matchApp('app-N2030B');"><span class="reading all">PSH</span><span class="reading va1 va2">!</span><span class="reading all"> ANY SISSY POET HAS SUFFICIENT FREEZING </span></span>
+</div>
+<div class="line lineN20315">
+<div class="linenumber" style="visibility: hidden;">34</div>
+<span class="apparatus loc-34a" onclick="matchApp(this.className);"><span class="reading all">CHEMICALS IN HIS </span><span class="reading va1 va3">FREUDIAN </span><span class="reading va2"><ins><del>PSYCHOANALYTIC </del></ins><ins class="place-below">FREUDIAN </ins></span><span class="reading all"> ICECHEST TO </span></span><span class="apparatus loc-34" onclick="matchApp(this.className);"><span class="reading va2"><del>DAMPEN </del><ins class="place-below">SNUFF</ins> ALL </span></span>
+</div>
+<div class="line lineN20334">
+<div class="linenumber" style="visibility: hidden;">35</div>
+<span class="apparatus loc-34" onclick="matchApp(this.className);"><span class="reading va1 va3">SNUFF ALL </span></span><span class="apparatus loc-35a" onclick="matchApp(this.className);"><span class="reading all">COCKYNESS</span><span class="reading va1 va2">. </span><span class="reading all"> WE'LL HIRE ONE</span><span class="reading va1 va2">. </span></span>
+</div>
+<div class="line lineN20349" onclick="matchLine('lineN20349');">
+<div class="linenumber" style="visibility: hidden;">36</div>
+<span class="apparatus" onclick="matchApp('app-N2034B');"><span class="reading all">HELL</span><span class="reading va1 va2">!</span><span class="reading all"> NOT THAT</span><span class="reading va1 va2">! </span><span class="reading all">THAT'S THE TROUBLE</span><span class="reading va1">! </span><span class="reading va2"> - -</span></span>
+</div>
+<div class="line lineN20361" onclick="matchLine('lineN20361');">
+<div class="linenumber" style="visibility: hidden;">37</div>
+<span class="apparatus" onclick="matchApp('app-N20363');"><span class="reading all">COCK</span><span class="reading va1 va2">CROW - </span><span class="reading va3">CROW </span><span class="reading all">SILLY</span><span class="reading va1">.</span><span class="reading va2 va3">.</span></span>
+</div>
+<div class="line lineN20379" onclick="matchLine('lineN20379');">
+<div class="linenumber" style="visibility: hidden;">38</div>
+<span class="apparatus" onclick="matchApp('app-N2037B');"><span class="reading va1 va3">OH </span><span class="reading va1">- </span><span class="reading va2"><ins class="place-margin">OH </ins></span><span class="reading all">FINE</span><span class="reading va1">! </span></span>
+</div>
+<div class="line lineN2038D">
+<div class="linenumber" style="visibility: hidden;">39</div>
+<span class="apparatus loc-39a" onclick="matchApp(this.className);"><span class="reading va3"><ins><del>HANG</del></ins></span><span class="reading all">THEY </span><span class="reading va1">'</span><span class="reading all">RE IN FRANCE </span><span class="reading va1 va2">-</span><span class="reading va1 va3">AFRICA</span><span class="reading va1 va2"> THE AIR - </span><span class="reading va3"><ins>THE AIR </ins></span><span class="reading all"> ON THE </span></span><span class="apparatus loc-39" onclick="matchApp(this.className);"><span class="reading va2 va3">LINE </span><span class="reading va2">-</span><span class="reading va3">THE </span></span>
+</div>
+<div class="line lineN203BA">
+<div class="linenumber" style="visibility: hidden;">40</div>
+<span class="apparatus loc-39" onclick="matchApp(this.className);"><span class="reading va1">LINE - </span><span class="reading va1 va2">THE </span></span><span class="apparatus loc-39a" onclick="matchApp(this.className);"><span class="reading all">POLES </span></span><span class="apparatus" onclick="matchApp('app-N203C9');"><span class="reading va1 va2">- - - - - -</span><span class="reading va1"> - </span></span>
+</div>
+<div class="line lineN203D0">
+<div class="linenumber" style="visibility: hidden;">41</div>
+<span class="apparatus loc-41a" onclick="matchApp(this.className);"><span class="reading all">HAVE THEM SEND WAVES - LIKE CANDY - </span></span><span class="apparatus loc-41" onclick="matchApp(this.className);"><span class="reading va1 va3">VALENTINES -</span></span>
+</div>
+<div class="line lineN203DC">
+<div class="linenumber" style="visibility: hidden;">42</div>
+<span class="apparatus loc-41" onclick="matchApp(this.className);"><span class="reading va2">VALENTINES </span><span class="reading va1 va2">- - -</span><span class="reading va1"> - - - - -  </span></span>
+</div>
+<div class="line lineN203E9" onclick="matchLine('lineN203E9');">
+<div class="linenumber" style="visibility: hidden;">43</div>
+<span class="apparatus" onclick="matchApp('app-N203EB');"><span class="reading va1">"</span></span><span class="apparatus" onclick="matchApp('app-N203EF');"><span class="reading all">SAY IT WITH</span><span class="reading va1">"</span><span class="reading va1 va2">- - - </span></span>
+</div>
+<div class="line lineN203F9" onclick="matchLine('lineN203F9');">
+<div class="linenumber" style="visibility: hidden;">44</div>
+<span class="apparatus" onclick="matchApp('app-N203FB');"><span class="reading all">BOLTS</span><span class="reading va1">. </span><span class="reading va2">!</span></span>
+</div>
+<div class="line lineN20405" onclick="matchLine('lineN20405');">
+<div class="linenumber" style="visibility: hidden;">45</div>
+<span class="apparatus" onclick="matchApp('app-N20407');"><span class="reading va2">OH </span></span> THUNDER<span class="apparatus" onclick="matchApp('app-N2040C');"><span class="reading va1 va2">!</span></span>
+</div>
+<div class="line lineN20410" onclick="matchLine('lineN20410');">
+<div class="linenumber" style="visibility: hidden;">46</div>
+<span class="apparatus" onclick="matchApp('app-N20412');"><span class="reading all">SERPENTINE AIR CURRENTS</span><span class="reading va1 va2"> - - -</span><span class="reading va1"> -  </span></span>
+</div>
+<div class="line lineN2041C" onclick="matchLine('lineN2041C');">
+<div class="linenumber" style="visibility: hidden;">47</div>
+<span class="apparatus" onclick="matchApp('app-N2041E');"><span class="reading all">HHHH</span><span class="reading va1 va2">H</span><span class="reading va1">HHHH</span><span class="reading all">PHSSSSSS</span><span class="reading va1 va2">SS</span><span class="reading va1">SSSS</span><span class="reading va1 va2">! </span><span class="reading all"> THE VERY WORD PENETRATES</span><span class="reading va1 va2">! </span></span>
+</div>
+<div class="line lineN2043A" onclick="matchLine('lineN2043A');">
+<div class="linenumber" style="visibility: hidden;">48</div>
+<span class="apparatus" onclick="matchApp('app-N2043C');"><span class="reading all">I FEEL WHOOZY</span><span class="reading va1">!</span><span class="reading va2">.</span></span>
+</div>
+<div class="line lineN20446" onclick="matchLine('lineN20446');">
+<div class="linenumber" style="visibility: hidden;">49</div>
+<span class="apparatus" onclick="matchApp('app-N20448');"><span class="reading all">I LIKE THAT. I </span><span class="reading va1 va3">AINT </span><span class="reading va2">DONT </span><span class="reading all">HANKER</span><span class="reading va1 va3">ING </span><span class="reading all"> AFTER </span><span class="reading va3">BILLY</span></span>
+</div>
+<div class="line lineN2045E">
+<div class="linenumber" style="visibility: hidden;">50</div>
+<span class="apparatus loc-50a" onclick="matchApp(this.className);"><span class="reading va2"><del>TRUANT</del></span><span class="reading va1 va2">BILLY </span><span class="reading all">BOYS - BUT I AM ENTITLED </span></span><span class="apparatus loc-50" onclick="matchApp(this.className);"><span class="reading va1 va3"> TO BE  </span></span>
+</div>
+<div class="line lineN20471">
+<div class="linenumber" style="visibility: hidden;">51</div>
+<span class="apparatus loc-50" onclick="matchApp(this.className);"><span class="reading va2">TO BE </span><span class="reading all">DEEPLY SHOCKED.</span></span>
+</div>
+<div class="line lineN2047B" onclick="matchLine('lineN2047B');">
+<div class="linenumber" style="visibility: hidden;">52</div>
+<span class="apparatus" onclick="matchApp('app-N2047D');"><span class="reading all">SO ARE WE </span><span class="reading va1 va2">- </span><span class="reading va3">.</span><span class="reading all"> BUT YOU FILL THE </span><span class="reading va2"><del><span class="unclear"></span></del></span><span class="reading all">HIATUS. </span></span>
+</div>
+<div class="line lineN20491" onclick="matchLine('lineN20491');">
+<div class="linenumber" style="visibility: hidden;">53</div>
+<span class="apparatus" onclick="matchApp('app-N20493');"><span class="reading all">DEAR </span><span class="reading va1 va2">-</span><span class="reading all"> I AINT QUEER - I NEED IT STRAIGHT </span><span class="reading va1 va2">-</span><span class="reading va2"> - </span></span>
+</div>
+<div class="line lineN204A3" onclick="matchLine('lineN204A3');">
+<div class="linenumber" style="visibility: hidden;">54</div>
+<span class="apparatus" onclick="matchApp('app-N204A5');"><span class="reading va1 va2">-A DOZEN COCKTAILS - PLEASE</span><span class="reading va1">!</span><span class="reading va1">- - - - </span></span>
+</div>
+</div>
+<span class="apparatus app-N204B0 clickable" onclick="matchApp('app-N204B0');"><span class="reading va1">E.V.F.L </span><span class="reading va2">ELSE<br class="linebreak"> BARONESS<br class="linebreak"> V.<br class="linebreak"> FREYTAG-<br class="linebreak">LORINGHOVEN</span></span>
+</div>
+</div>
+</div>
+</div>
+<div id="notesPanel" class="panel" style="display: none;">
+<div class="panelBanner">
+<span onclick="hideNotesPanel();" class="closePanel">X</span>
+            Textual Notes
+         </div>
+<div class="noteContentall">
+<div class="witnesses">all</div>
+<div class="position">Line number 2</div>A reference to Frank Silver and Irving Cohn's Tin Pan Alley jazz smash of 1923, "Yes! We Have No Bananas"; for more disucssion of the use of this song both in "A Dozen Cocktails" an in other modernist literature, see Ryan Jerving's article "Jazz Language and Ethnic Novelty." <span class="hi rend-italic">Modernism/modernity</span> (2003): 239-268.
+                	</div>
+<div class="noteContent" id="noNotesFound">
+            Sorry, but there are no notes associated with
+            any currently displayed witness.
+         </div>
+</div>
+<br class="clear">
+</div>
+<div id="panel_imageViewer" class="viewerRoot">
+<div id="handle_imageViewer" class="viewerHandle" title="Click to drag panel.">
+<span id="title_imageViewer" class="viewerHandleLt">Image Viewer</span><span onclick="return hidePanel('imageViewer');" class="viewerHandleRt">X</span>
+</div>
+<div id="content_imageViewer" class="viewerContent"></div>
+</div>
+</body>
+</html>
+<div hidden=true id="miradorDiv"/>
+
+<script type="text/javascript" src="../webfiles/public-common/js/digital/mirador-transition.js"></script>
