@@ -9,15 +9,14 @@ To spin up a docker container of the static app, build the dockerfile
 ```
 docker build -t <transition image name> .
 ```
-where <transition image name> is the image name.
 
 
-To run the container from built image on desired port(Say 8000),
+To run the container from the built image on desired port,
 ```
 docker run  -p <desired port>:80 <transition image name>
 ```
 
-##Example
+## Example
 
 To spin up a container in port 8000.
 
