@@ -17,8 +17,8 @@ for pageId in pageIds:
     directory = os.getcwd() #Relative to script location
     driver = webdriver.Chrome('/usr/local/bin/chromedriver')
     driver.get(site)
-    source_url_img = "../webfiles/public-common/images/digital/55226/thumb_%s/umd-bdef:image/getImage/"
-    source_url_thumb = "../webfiles/public-common/images/digital/55226/thumb_%s/umd-bdef:image/getThumbnail?maxHeight=&maxWidth="
+    source_url_img = "./webfiles/public-common/images/digital/55226/thumb_%s/umd-bdef:image/getImage/"
+    source_url_thumb = "./webfiles/public-common/images/digital/55226/thumb_%s/umd-bdef:image/getThumbnail?maxHeight=&maxWidth="
     path = directory+"/"+str(pageId)+"/"
     try:
         os.mkdir(path, 0o755)
