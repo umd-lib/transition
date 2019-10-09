@@ -5,18 +5,19 @@ Jira: https://issues.umd.edu/browse/LIBWEB-4961
 
 ## Build Operations
 
-To spin up a docker container of the static app, inside the root directory build the dockerfile
+To spin up a docker container of the static app, build the dockerfile
 ```
-docker build -t <transition iamge name> .
+docker build -t <transition image name> .
 ```
-where <transition iamge name> is the image name.
+where <transition image name> is the image name.
+
 
 To run the container from built image on desired port(Say 8000),
 ```
-docker run  -p <desired port>:80 <transition iamge name>
+docker run  -p <desired port>:80 <transition image name>
 ```
 
-###Example
+##Example
 
 To spin up a container in port 8000.
 
