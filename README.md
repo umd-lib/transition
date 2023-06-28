@@ -24,3 +24,6 @@ To spin up a container in port 8000.
 docker build -t transition .
 docker run  -p 8000:80 transition
 ```
+## License
+
+See the [LICENSE](LICENSE.txt) file for license rights and limitations.
